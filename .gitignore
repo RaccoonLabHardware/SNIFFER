@@ -2,5 +2,9 @@ History/
 Project Logs for */
 Project Outputs for */
 *.PrjPcbStructure
-__Previews/
+*.pdf
+*.xls
+*.step
 *.rar
+*.jpg
+__Previews/
