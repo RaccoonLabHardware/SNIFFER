@@ -1,3 +1,5 @@
+This device allows you to flash the programm to stm32 MCUs using SWD and get data from UAVCAN.
+
 ## Special thanks for
 
 https://github.com/GolinskiyKonstantin/ST-Link-V2-1
