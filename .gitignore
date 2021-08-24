@@ -1,10 +1,8 @@
 History/
 Project Logs for */
-Project Outputs for */
 *.PrjPcbStructure
-*.pdf
-*.xls
 *.step
 *.rar
+*.zip
 *.jpg
 __Previews/
