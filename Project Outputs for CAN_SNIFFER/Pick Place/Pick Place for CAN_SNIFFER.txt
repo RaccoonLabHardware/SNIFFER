@@ -4,9 +4,9 @@ C:\altium workspace\UAVCAN-Sniffer-STM-Programmer\Project Outputs for CAN_SNIFFE
 ========================================================================================================================
 File Design Information:
 
-Date:       24.08.21
-Time:       11:32
-Revision:   ec01092ea97f60573b599d20ab6b07b64b4f05fb
+Date:       21.09.21
+Time:       11:38
+Revision:   c6e376cfc5a21bcebf06bcaf094e94d493ccb18c
 Variant:    No variations
 Units used: mm
 
