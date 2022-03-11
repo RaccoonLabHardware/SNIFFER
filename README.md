@@ -1,5 +1,10 @@
 This device allows you to flash the programm to stm32 MCUs using SWD and get data from UAVCAN.
 
+## Fabrication order
+
+You can order this PCB by this link https://www.pcbway.com/project/shareproject/ST_Link_programmer_and_UAVCAN_sniffer.html
+
+
 ## Special thanks for
 
 https://github.com/GolinskiyKonstantin/ST-Link-V2-1
