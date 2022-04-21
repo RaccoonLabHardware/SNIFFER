@@ -2,6 +2,56 @@
 FileName = CAN_SNIFFER.GBR
 AutoAperture = True
 *************************************************************
+Generating : Mechanical 2
+      File : CAN_SNIFFER.GM2
+
+    Adding Layer      : Mechanical 2
+
+
+Used DCodes :
+    D10
+    D17
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : CAN_SNIFFER.GBO
+
+    Adding Layer      : Bottom Overlay
+
+
+Used DCodes :
+    D10
+    D13
+    D14
+    D15
+    D16
+    D68
+    D84
+    D85
+    D86
+    D87
+    D88
+*************************************************************
+
+*************************************************************
+Generating : Bottom Paste
+      File : CAN_SNIFFER.GBP
+
+    Adding Layer      : Bottom Paste
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D76
+    D77
+    D78
+*************************************************************
+
+*************************************************************
 Generating : Bottom Solder
       File : CAN_SNIFFER.GBS
 
@@ -13,15 +63,15 @@ Generating : Bottom Solder
 
 
 Used DCodes :
-    D58
-    D59
     D60
     D61
     D62
-    D79
+    D63
+    D64
     D80
     D81
     D82
+    D83
 *************************************************************
 
 *************************************************************
@@ -36,9 +86,6 @@ Generating : Top Solder
 
 
 Used DCodes :
-    D36
-    D37
-    D38
     D39
     D40
     D41
@@ -63,39 +110,41 @@ Used DCodes :
     D60
     D61
     D62
+    D63
+    D64
 *************************************************************
 
 *************************************************************
-Generating : Mechanical 2
-      File : CAN_SNIFFER.GM2
+Generating : Top Paste
+      File : CAN_SNIFFER.GTP
 
-    Adding Layer      : Mechanical 2
+    Adding Layer      : Top Paste
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
 
 
 Used DCodes :
-    D10
-    D88
-*************************************************************
-
-*************************************************************
-Generating : Bottom Overlay
-      File : CAN_SNIFFER.GBO
-
-    Adding Layer      : Bottom Overlay
-
-
-Used DCodes :
-    D10
-    D13
-    D14
-    D15
-    D66
-    D67
-    D83
-    D84
-    D85
-    D86
-    D87
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
 *************************************************************
 
 *************************************************************
@@ -113,6 +162,9 @@ Used DCodes :
     D14
     D15
     D16
+    D17
+    D18
+    D19
 *************************************************************
 
 *************************************************************
@@ -128,10 +180,10 @@ Used DCodes :
     D10
     D13
     D14
-    D64
-    D65
+    D16
     D66
-    D69
+    D67
+    D68
     D70
     D71
     D72
@@ -141,6 +193,7 @@ Used DCodes :
     D76
     D77
     D78
+    D79
 *************************************************************
 
 *************************************************************
@@ -156,9 +209,7 @@ Used DCodes :
     D10
     D13
     D14
-    D17
-    D18
-    D19
+    D16
     D20
     D21
     D22
@@ -175,8 +226,9 @@ Used DCodes :
     D33
     D34
     D35
-    D63
-    D64
+    D36
+    D37
+    D38
     D65
     D66
     D67
@@ -187,55 +239,6 @@ Used DCodes :
     D72
     D73
     D74
-*************************************************************
-
-*************************************************************
-Generating : Bottom Paste
-      File : CAN_SNIFFER.GBP
-
-    Adding Layer      : Bottom Paste
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
     D75
-    D76
-    D77
-*************************************************************
-
-*************************************************************
-Generating : Top Paste
-      File : CAN_SNIFFER.GTP
-
-    Adding Layer      : Top Paste
-
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D17
-    D18
-    D19
-    D20
-    D21
-    D22
-    D23
-    D24
-    D25
-    D26
-    D27
-    D28
-    D29
-    D30
-    D31
-    D32
-    D33
-    D34
-    D35
 *************************************************************
 
