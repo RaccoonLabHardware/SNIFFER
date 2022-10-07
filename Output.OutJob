@@ -292,7 +292,7 @@ OutputFileNameMulti4==ProjectName
 UseOutputNameForMulti4=0
 OutputFileNameSpecial4=
 OpenOutput4=1
-OutputFilePath5=doc\
+OutputFilePath5=C:\altium workspace\UAVCAN-Sniffer-STM-Programmer\doc\
 ReleaseManaged5=0
 OutputBasePath5=doc\
 OutputPathMedia5=
@@ -355,7 +355,7 @@ OpenGerberOutput4=0
 OpenNCDrillOutput4=0
 OpenIPCOutput4=0
 EnableReload4=0
-RelativeOutputPath5=doc\
+RelativeOutputPath5=C:\altium workspace\UAVCAN-Sniffer-STM-Programmer\doc\
 OpenOutputs5=1
 AddToProject5=1
 TimestampFolder5=0
