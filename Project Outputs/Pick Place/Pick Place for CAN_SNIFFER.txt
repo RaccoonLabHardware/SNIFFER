@@ -1,12 +1,12 @@
 Altium Designer Pick and Place Locations
-C:\altium workspace\UAVCAN-Sniffer-STM-Programmer\Project Outputs for CAN_SNIFFER\Pick Place\Pick Place for CAN_SNIFFER.txt
+C:\altium workspace\UAVCAN-Sniffer-STM-Programmer\Project Outputs\Pick Place\Pick Place for CAN_SNIFFER.txt
 
 ========================================================================================================================
 File Design Information:
 
-Date:       21.04.22
-Time:       12:39
-Revision:   864cdafe4da4682aa322d6fd66016995d88b8b1a
+Date:       07.10.22
+Time:       16:05
+Revision:   e3b48c5d40277089e61fc76a7063b24770ad5c8c
 Variant:    No variations
 Units used: mm
 

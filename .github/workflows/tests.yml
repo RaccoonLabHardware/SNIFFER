@@ -1,0 +1,21 @@
+name: tests
+
+on: [push]
+jobs:
+  test:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          path: repo
+          
+      - name: Checkout pcb-versions repo
+        uses: actions/checkout@v3
+        with:
+          repository: RaccoonLabHardware/pcb-versions
+          token: ${{ secrets.ACCESS_TOKEN }}
+          path: repo/pcb-versions
+
+      - name: Basic Altium Output Files, BOM And Version Resistors Checkout 
+        run: |
+          cd repo && ls && pip install openpyxl && python pcb-versions/tests.py
