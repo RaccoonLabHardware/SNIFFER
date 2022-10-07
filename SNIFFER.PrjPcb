@@ -181,166 +181,90 @@ DocumentPath=Project Outputs\BOM\Bill of Materials-BOM.xlsx
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Project Outputs for CAN_SNIFFER\BOM\Bill of Materials-BOM.xlsx
-DItemRevisionGUID=
-
-[GeneratedDocument3]
 DocumentPath=Project Outputs\NC Drill\CAN_SNIFFER-RoundHoles.TXT
 DItemRevisionGUID=
 
-[GeneratedDocument4]
-DocumentPath=Project Outputs for CAN_SNIFFER\NC Drill\CAN_SNIFFER-RoundHoles.TXT
-DItemRevisionGUID=
-
-[GeneratedDocument5]
+[GeneratedDocument3]
 DocumentPath=Project Outputs\NC Drill\CAN_SNIFFER-SlotHoles.TXT
 DItemRevisionGUID=
 
-[GeneratedDocument6]
-DocumentPath=Project Outputs for CAN_SNIFFER\NC Drill\CAN_SNIFFER-SlotHoles.TXT
-DItemRevisionGUID=
-
-[GeneratedDocument7]
+[GeneratedDocument4]
 DocumentPath=Project Outputs\NC Drill\CAN_SNIFFER.DRR
 DItemRevisionGUID=
 
-[GeneratedDocument8]
-DocumentPath=Project Outputs for CAN_SNIFFER\NC Drill\CAN_SNIFFER.DRR
-DItemRevisionGUID=
-
-[GeneratedDocument9]
+[GeneratedDocument5]
 DocumentPath=Project Outputs\Gerber\CAN_SNIFFER.EXTREP
 DItemRevisionGUID=
 
-[GeneratedDocument10]
-DocumentPath=Project Outputs for CAN_SNIFFER\Gerber\CAN_SNIFFER.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument11]
+[GeneratedDocument6]
 DocumentPath=Project Outputs\Gerber\CAN_SNIFFER.GBL
 DItemRevisionGUID=
 
-[GeneratedDocument12]
-DocumentPath=Project Outputs for CAN_SNIFFER\Gerber\CAN_SNIFFER.GBL
-DItemRevisionGUID=
-
-[GeneratedDocument13]
+[GeneratedDocument7]
 DocumentPath=Project Outputs\Gerber\CAN_SNIFFER.GBO
 DItemRevisionGUID=
 
-[GeneratedDocument14]
-DocumentPath=Project Outputs for CAN_SNIFFER\Gerber\CAN_SNIFFER.GBO
-DItemRevisionGUID=
-
-[GeneratedDocument15]
+[GeneratedDocument8]
 DocumentPath=Project Outputs\Gerber\CAN_SNIFFER.GBP
 DItemRevisionGUID=
 
-[GeneratedDocument16]
-DocumentPath=Project Outputs for CAN_SNIFFER\Gerber\CAN_SNIFFER.GBP
-DItemRevisionGUID=
-
-[GeneratedDocument17]
+[GeneratedDocument9]
 DocumentPath=Project Outputs\Gerber\CAN_SNIFFER.GBS
 DItemRevisionGUID=
 
-[GeneratedDocument18]
-DocumentPath=Project Outputs for CAN_SNIFFER\Gerber\CAN_SNIFFER.GBS
-DItemRevisionGUID=
-
-[GeneratedDocument19]
+[GeneratedDocument10]
 DocumentPath=Project Outputs\Gerber\CAN_SNIFFER.GM2
 DItemRevisionGUID=
 
-[GeneratedDocument20]
-DocumentPath=Project Outputs for CAN_SNIFFER\Gerber\CAN_SNIFFER.GM2
-DItemRevisionGUID=
-
-[GeneratedDocument21]
+[GeneratedDocument11]
 DocumentPath=Project Outputs\Gerber\CAN_SNIFFER.GTL
 DItemRevisionGUID=
 
-[GeneratedDocument22]
-DocumentPath=Project Outputs for CAN_SNIFFER\Gerber\CAN_SNIFFER.GTL
-DItemRevisionGUID=
-
-[GeneratedDocument23]
+[GeneratedDocument12]
 DocumentPath=Project Outputs\Gerber\CAN_SNIFFER.GTO
 DItemRevisionGUID=
 
-[GeneratedDocument24]
-DocumentPath=Project Outputs for CAN_SNIFFER\Gerber\CAN_SNIFFER.GTO
-DItemRevisionGUID=
-
-[GeneratedDocument25]
+[GeneratedDocument13]
 DocumentPath=Project Outputs\Gerber\CAN_SNIFFER.GTP
 DItemRevisionGUID=
 
-[GeneratedDocument26]
-DocumentPath=Project Outputs for CAN_SNIFFER\Gerber\CAN_SNIFFER.GTP
-DItemRevisionGUID=
-
-[GeneratedDocument27]
+[GeneratedDocument14]
 DocumentPath=Project Outputs\Gerber\CAN_SNIFFER.GTS
 DItemRevisionGUID=
 
-[GeneratedDocument28]
-DocumentPath=Project Outputs for CAN_SNIFFER\Gerber\CAN_SNIFFER.GTS
-DItemRevisionGUID=
-
-[GeneratedDocument29]
+[GeneratedDocument15]
 DocumentPath=Project Outputs\NC Drill\CAN_SNIFFER.LDP
 DItemRevisionGUID=
 
-[GeneratedDocument30]
-DocumentPath=Project Outputs for CAN_SNIFFER\NC Drill\CAN_SNIFFER.LDP
-DItemRevisionGUID=
-
-[GeneratedDocument31]
+[GeneratedDocument16]
 DocumentPath=Project Outputs\Gerber\CAN_SNIFFER.REP
 DItemRevisionGUID=
 
-[GeneratedDocument32]
-DocumentPath=Project Outputs for CAN_SNIFFER\Gerber\CAN_SNIFFER.REP
-DItemRevisionGUID=
-
-[GeneratedDocument33]
+[GeneratedDocument17]
 DocumentPath=Project Outputs\Gerber\CAN_SNIFFER.RUL
 DItemRevisionGUID=
 
-[GeneratedDocument34]
-DocumentPath=Project Outputs for CAN_SNIFFER\Gerber\CAN_SNIFFER.RUL
-DItemRevisionGUID=
-
-[GeneratedDocument35]
+[GeneratedDocument18]
 DocumentPath=doc\CAN_SNIFFER.step
 DItemRevisionGUID=
 
-[GeneratedDocument36]
+[GeneratedDocument19]
 DocumentPath=Project Outputs\Pick Place\Pick Place for CAN_SNIFFER.csv
 DItemRevisionGUID=
 
-[GeneratedDocument37]
-DocumentPath=Project Outputs for CAN_SNIFFER\Pick Place\Pick Place for CAN_SNIFFER.csv
-DItemRevisionGUID=
-
-[GeneratedDocument38]
+[GeneratedDocument20]
 DocumentPath=Project Outputs\Pick Place\Pick Place for CAN_SNIFFER.txt
 DItemRevisionGUID=
 
-[GeneratedDocument39]
-DocumentPath=Project Outputs for CAN_SNIFFER\Pick Place\Pick Place for CAN_SNIFFER.txt
-DItemRevisionGUID=
-
-[GeneratedDocument40]
+[GeneratedDocument21]
 DocumentPath=doc\view-bottom.png
 DItemRevisionGUID=
 
-[GeneratedDocument41]
+[GeneratedDocument22]
 DocumentPath=doc\view-top.png
 DItemRevisionGUID=
 
-[GeneratedDocument42]
+[GeneratedDocument23]
 DocumentPath=doc\view.png
 DItemRevisionGUID=
 
@@ -1006,36 +930,6 @@ OutputName11=Export STEP
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
-OutputType12=Ansoft Neutral
-OutputName12=Ansoft Neutral (AutoPCB)
-OutputDocumentPath12=
-OutputVariantName12=
-OutputDefault12=0
-OutputType13=HyperLynx
-OutputName13=HyperLynx (AutoPCB)
-OutputDocumentPath13=
-OutputVariantName13=
-OutputDefault13=0
-OutputType14=Orcad v7 Capture Design
-OutputName14=Orcad v7 Capture Design (AutoSCH)
-OutputDocumentPath14=
-OutputVariantName14=
-OutputDefault14=0
-OutputType15=P-CAD ASCII
-OutputName15=P-CAD ASCII (AutoPCB)
-OutputDocumentPath15=
-OutputVariantName15=
-OutputDefault15=0
-OutputType16=P-CAD V16 Schematic Design
-OutputName16=P-CAD V16 Schematic Design (AutoSCH)
-OutputDocumentPath16=
-OutputVariantName16=
-OutputDefault16=0
-OutputType17=SiSoft
-OutputName17=SiSoft (AutoPCB)
-OutputDocumentPath17=
-OutputVariantName17=
-OutputDefault17=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
