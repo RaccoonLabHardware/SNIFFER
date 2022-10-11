@@ -249,22 +249,98 @@ DocumentPath=doc\CAN_SNIFFER.step
 DItemRevisionGUID=
 
 [GeneratedDocument19]
-DocumentPath=Project Outputs\Pick Place\Pick Place for CAN_SNIFFER.csv
+DocumentPath=Project Outputs\NC Drill\PCB-RoundHoles.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument20]
-DocumentPath=Project Outputs\Pick Place\Pick Place for CAN_SNIFFER.txt
+DocumentPath=Project Outputs\NC Drill\PCB-SlotHoles.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument21]
-DocumentPath=doc\view-bottom.png
+DocumentPath=Project Outputs\NC Drill\PCB.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument22]
-DocumentPath=doc\view-top.png
+DocumentPath=Project Outputs\Gerber\PCB.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument23]
+DocumentPath=Project Outputs\Gerber\PCB.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument24]
+DocumentPath=Project Outputs\Gerber\PCB.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument25]
+DocumentPath=Project Outputs\Gerber\PCB.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument26]
+DocumentPath=Project Outputs\Gerber\PCB.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument27]
+DocumentPath=Project Outputs\Gerber\PCB.GM2
+DItemRevisionGUID=
+
+[GeneratedDocument28]
+DocumentPath=Project Outputs\Gerber\PCB.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument29]
+DocumentPath=Project Outputs\Gerber\PCB.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument30]
+DocumentPath=Project Outputs\Gerber\PCB.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument31]
+DocumentPath=Project Outputs\Gerber\PCB.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument32]
+DocumentPath=Project Outputs\NC Drill\PCB.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument33]
+DocumentPath=Project Outputs\Gerber\PCB.REP
+DItemRevisionGUID=
+
+[GeneratedDocument34]
+DocumentPath=Project Outputs\Gerber\PCB.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument35]
+DocumentPath=Project Outputs\Pick Place\Pick Place for CAN_SNIFFER.csv
+DItemRevisionGUID=
+
+[GeneratedDocument36]
+DocumentPath=Project Outputs\Pick Place\Pick Place for CAN_SNIFFER.txt
+DItemRevisionGUID=
+
+[GeneratedDocument37]
+DocumentPath=Project Outputs\Pick Place\Pick Place for PCB.csv
+DItemRevisionGUID=
+
+[GeneratedDocument38]
+DocumentPath=Project Outputs\Pick Place\Pick Place for PCB.txt
+DItemRevisionGUID=
+
+[GeneratedDocument39]
+DocumentPath=doc\SNIFFER.step
+DItemRevisionGUID=
+
+[GeneratedDocument40]
+DocumentPath=doc\view-bottom.png
+DItemRevisionGUID=
+
+[GeneratedDocument41]
+DocumentPath=doc\view-top.png
+DItemRevisionGUID=
+
+[GeneratedDocument42]
 DocumentPath=doc\view.png
 DItemRevisionGUID=
 
