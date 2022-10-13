@@ -181,166 +181,94 @@ DocumentPath=Project Outputs\BOM\Bill of Materials-BOM.xlsx
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Project Outputs\NC Drill\CAN_SNIFFER-RoundHoles.TXT
-DItemRevisionGUID=
-
-[GeneratedDocument3]
-DocumentPath=Project Outputs\NC Drill\CAN_SNIFFER-SlotHoles.TXT
-DItemRevisionGUID=
-
-[GeneratedDocument4]
-DocumentPath=Project Outputs\NC Drill\CAN_SNIFFER.DRR
-DItemRevisionGUID=
-
-[GeneratedDocument5]
-DocumentPath=Project Outputs\Gerber\CAN_SNIFFER.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument6]
-DocumentPath=Project Outputs\Gerber\CAN_SNIFFER.GBL
-DItemRevisionGUID=
-
-[GeneratedDocument7]
-DocumentPath=Project Outputs\Gerber\CAN_SNIFFER.GBO
-DItemRevisionGUID=
-
-[GeneratedDocument8]
-DocumentPath=Project Outputs\Gerber\CAN_SNIFFER.GBP
-DItemRevisionGUID=
-
-[GeneratedDocument9]
-DocumentPath=Project Outputs\Gerber\CAN_SNIFFER.GBS
-DItemRevisionGUID=
-
-[GeneratedDocument10]
-DocumentPath=Project Outputs\Gerber\CAN_SNIFFER.GM2
-DItemRevisionGUID=
-
-[GeneratedDocument11]
-DocumentPath=Project Outputs\Gerber\CAN_SNIFFER.GTL
-DItemRevisionGUID=
-
-[GeneratedDocument12]
-DocumentPath=Project Outputs\Gerber\CAN_SNIFFER.GTO
-DItemRevisionGUID=
-
-[GeneratedDocument13]
-DocumentPath=Project Outputs\Gerber\CAN_SNIFFER.GTP
-DItemRevisionGUID=
-
-[GeneratedDocument14]
-DocumentPath=Project Outputs\Gerber\CAN_SNIFFER.GTS
-DItemRevisionGUID=
-
-[GeneratedDocument15]
-DocumentPath=Project Outputs\NC Drill\CAN_SNIFFER.LDP
-DItemRevisionGUID=
-
-[GeneratedDocument16]
-DocumentPath=Project Outputs\Gerber\CAN_SNIFFER.REP
-DItemRevisionGUID=
-
-[GeneratedDocument17]
-DocumentPath=Project Outputs\Gerber\CAN_SNIFFER.RUL
-DItemRevisionGUID=
-
-[GeneratedDocument18]
 DocumentPath=doc\CAN_SNIFFER.step
 DItemRevisionGUID=
 
-[GeneratedDocument19]
+[GeneratedDocument3]
 DocumentPath=Project Outputs\NC Drill\PCB-RoundHoles.TXT
 DItemRevisionGUID=
 
-[GeneratedDocument20]
+[GeneratedDocument4]
 DocumentPath=Project Outputs\NC Drill\PCB-SlotHoles.TXT
 DItemRevisionGUID=
 
-[GeneratedDocument21]
+[GeneratedDocument5]
 DocumentPath=Project Outputs\NC Drill\PCB.DRR
 DItemRevisionGUID=
 
-[GeneratedDocument22]
+[GeneratedDocument6]
 DocumentPath=Project Outputs\Gerber\PCB.EXTREP
 DItemRevisionGUID=
 
-[GeneratedDocument23]
+[GeneratedDocument7]
 DocumentPath=Project Outputs\Gerber\PCB.GBL
 DItemRevisionGUID=
 
-[GeneratedDocument24]
+[GeneratedDocument8]
 DocumentPath=Project Outputs\Gerber\PCB.GBO
 DItemRevisionGUID=
 
-[GeneratedDocument25]
+[GeneratedDocument9]
 DocumentPath=Project Outputs\Gerber\PCB.GBP
 DItemRevisionGUID=
 
-[GeneratedDocument26]
+[GeneratedDocument10]
 DocumentPath=Project Outputs\Gerber\PCB.GBS
 DItemRevisionGUID=
 
-[GeneratedDocument27]
+[GeneratedDocument11]
 DocumentPath=Project Outputs\Gerber\PCB.GM2
 DItemRevisionGUID=
 
-[GeneratedDocument28]
+[GeneratedDocument12]
 DocumentPath=Project Outputs\Gerber\PCB.GTL
 DItemRevisionGUID=
 
-[GeneratedDocument29]
+[GeneratedDocument13]
 DocumentPath=Project Outputs\Gerber\PCB.GTO
 DItemRevisionGUID=
 
-[GeneratedDocument30]
+[GeneratedDocument14]
 DocumentPath=Project Outputs\Gerber\PCB.GTP
 DItemRevisionGUID=
 
-[GeneratedDocument31]
+[GeneratedDocument15]
 DocumentPath=Project Outputs\Gerber\PCB.GTS
 DItemRevisionGUID=
 
-[GeneratedDocument32]
+[GeneratedDocument16]
 DocumentPath=Project Outputs\NC Drill\PCB.LDP
 DItemRevisionGUID=
 
-[GeneratedDocument33]
+[GeneratedDocument17]
 DocumentPath=Project Outputs\Gerber\PCB.REP
 DItemRevisionGUID=
 
-[GeneratedDocument34]
+[GeneratedDocument18]
 DocumentPath=Project Outputs\Gerber\PCB.RUL
 DItemRevisionGUID=
 
-[GeneratedDocument35]
-DocumentPath=Project Outputs\Pick Place\Pick Place for CAN_SNIFFER.csv
-DItemRevisionGUID=
-
-[GeneratedDocument36]
-DocumentPath=Project Outputs\Pick Place\Pick Place for CAN_SNIFFER.txt
-DItemRevisionGUID=
-
-[GeneratedDocument37]
+[GeneratedDocument19]
 DocumentPath=Project Outputs\Pick Place\Pick Place for PCB.csv
 DItemRevisionGUID=
 
-[GeneratedDocument38]
+[GeneratedDocument20]
 DocumentPath=Project Outputs\Pick Place\Pick Place for PCB.txt
 DItemRevisionGUID=
 
-[GeneratedDocument39]
+[GeneratedDocument21]
 DocumentPath=doc\SNIFFER.step
 DItemRevisionGUID=
 
-[GeneratedDocument40]
+[GeneratedDocument22]
 DocumentPath=doc\view-bottom.png
 DItemRevisionGUID=
 
-[GeneratedDocument41]
+[GeneratedDocument23]
 DocumentPath=doc\view-top.png
 DItemRevisionGUID=
 
-[GeneratedDocument42]
+[GeneratedDocument24]
 DocumentPath=doc\view.png
 DItemRevisionGUID=
 
