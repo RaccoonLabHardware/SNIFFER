@@ -53,10 +53,10 @@ None
 - Contains Sensitive components/parts - No; 
 - Do you accept alternatives/substitutes made in China? - Yes
 
-- Number of Unique Parts:
-- Number of SMD Parts:
-- Number of BGA/QFP Parts:
-- Number of Through-Hole Parts:
+- Number of Unique Parts: 22
+- Number of SMD Parts: 51
+- Number of BGA/QFP Parts: 0 
+- Number of Through-Hole Parts: 1
 
 ### Additional Options
 
