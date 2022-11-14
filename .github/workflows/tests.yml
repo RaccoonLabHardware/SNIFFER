@@ -18,4 +18,13 @@ jobs:
 
       - name: Basic Altium Output Files, BOM And Version Resistors Checkout 
         run: |
-          cd repo && ls && pip install openpyxl && python pcb-versions/tests.py
+          cd repo && ls && pip install openpyxl && pip install steputils && python pcb-versions/tests.py
+
+      # - name: Commit & push changes
+      #   run: |
+      #     cd repo/pcb-versions
+      #     git config --global user.name "sainquake-test"
+      #     git config --global user.email "sainquake@gmail.com"
+      #     git add -A
+      #     git commit -am "Update submodules"
+      #     git push origin master

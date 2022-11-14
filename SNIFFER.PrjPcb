@@ -92,23 +92,6 @@ GenerateClassCluster=0
 DocumentUniqueId=XVTQAGGS
 
 [Document4]
-DocumentPath=CAN_SNIFFER.SCHLIB
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=JXJBTEXP
-
-[Document5]
 DocumentPath=BOM.BomDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -125,7 +108,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document6]
+[Document5]
 DocumentPath=Output.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -142,7 +125,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document7]
+[Document6]
 DocumentPath=DRW.PCBDwf
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -159,8 +142,8 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document8]
-DocumentPath=Project Outputs\CAMtastic3.Cam
+[Document7]
+DocumentPath=Project Outputs\CAMtastic1.Cam
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -274,7 +257,7 @@ DItemRevisionGUID=
 
 [Parameter1]
 Name=Version
-Value=1.2
+Value=1.3
 
 [Configuration1]
 Name=Default Configuration
