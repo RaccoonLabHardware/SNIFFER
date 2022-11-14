@@ -5,8 +5,8 @@ C:\altium workspace\UAVCAN-Sniffer-STM-Programmer\Project Outputs\Pick Place\Pic
 File Design Information:
 
 Date:       14.11.22
-Time:       15:01
-Revision:   58e1e441a48de0de0c8cbc7bf8711a8b5d5862a7
+Time:       16:10
+Revision:   637c8d0a2cddf98bc162a1b6d109fc5eb3e59632
 Variant:    No variations
 Units used: mm
 
