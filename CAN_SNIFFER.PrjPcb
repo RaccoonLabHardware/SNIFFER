@@ -31,7 +31,7 @@ ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
 IsProjectConflictPreventionWarningsEnabled=1
-OutputPath=
+OutputPath=Project Outputs for CAN_SNIFFER
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -142,85 +142,211 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document7]
+DocumentPath=DRW.PCBDwf
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document8]
+DocumentPath=Project Outputs\CAMtastic1.Cam
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [GeneratedDocument1]
-DocumentPath=Project Outputs for CAN_SNIFFER\BOM\Bill of Materials-BOM.xlsx
+DocumentPath=Project Outputs\BOM\Bill of Materials-BOM.xlsx
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Project Outputs for CAN_SNIFFER\NC Drill\CAN_SNIFFER-RoundHoles.TXT
+DocumentPath=Project Outputs for CAN_SNIFFER\BOM\Bill of Materials-BOM.xlsx
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=Project Outputs for CAN_SNIFFER\NC Drill\CAN_SNIFFER-SlotHoles.TXT
+DocumentPath=Project Outputs\NC Drill\CAN_SNIFFER-RoundHoles.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=Project Outputs for CAN_SNIFFER\NC Drill\CAN_SNIFFER.DRR
+DocumentPath=Project Outputs for CAN_SNIFFER\NC Drill\CAN_SNIFFER-RoundHoles.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=Project Outputs for CAN_SNIFFER\Gerber\CAN_SNIFFER.EXTREP
+DocumentPath=Project Outputs\NC Drill\CAN_SNIFFER-SlotHoles.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=Project Outputs for CAN_SNIFFER\Gerber\CAN_SNIFFER.GBL
+DocumentPath=Project Outputs for CAN_SNIFFER\NC Drill\CAN_SNIFFER-SlotHoles.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=Project Outputs for CAN_SNIFFER\Gerber\CAN_SNIFFER.GBO
+DocumentPath=Project Outputs\NC Drill\CAN_SNIFFER.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Project Outputs for CAN_SNIFFER\Gerber\CAN_SNIFFER.GBP
+DocumentPath=Project Outputs for CAN_SNIFFER\NC Drill\CAN_SNIFFER.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=Project Outputs for CAN_SNIFFER\Gerber\CAN_SNIFFER.GBS
+DocumentPath=Project Outputs\Gerber\CAN_SNIFFER.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=Project Outputs for CAN_SNIFFER\Gerber\CAN_SNIFFER.GM2
+DocumentPath=Project Outputs for CAN_SNIFFER\Gerber\CAN_SNIFFER.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=Project Outputs for CAN_SNIFFER\Gerber\CAN_SNIFFER.GTL
+DocumentPath=Project Outputs\Gerber\CAN_SNIFFER.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=Project Outputs for CAN_SNIFFER\Gerber\CAN_SNIFFER.GTO
+DocumentPath=Project Outputs for CAN_SNIFFER\Gerber\CAN_SNIFFER.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=Project Outputs for CAN_SNIFFER\Gerber\CAN_SNIFFER.GTP
+DocumentPath=Project Outputs\Gerber\CAN_SNIFFER.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=Project Outputs for CAN_SNIFFER\Gerber\CAN_SNIFFER.GTS
+DocumentPath=Project Outputs for CAN_SNIFFER\Gerber\CAN_SNIFFER.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=Project Outputs for CAN_SNIFFER\NC Drill\CAN_SNIFFER.LDP
+DocumentPath=Project Outputs\Gerber\CAN_SNIFFER.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument16]
-DocumentPath=Project Outputs for CAN_SNIFFER\Gerber\CAN_SNIFFER.REP
+DocumentPath=Project Outputs for CAN_SNIFFER\Gerber\CAN_SNIFFER.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=Project Outputs for CAN_SNIFFER\Gerber\CAN_SNIFFER.RUL
+DocumentPath=Project Outputs\Gerber\CAN_SNIFFER.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument18]
-DocumentPath=Project Outputs for CAN_SNIFFER\Pick Place\Pick Place for CAN_SNIFFER.csv
+DocumentPath=Project Outputs for CAN_SNIFFER\Gerber\CAN_SNIFFER.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument19]
+DocumentPath=Project Outputs\Gerber\CAN_SNIFFER.GM2
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=Project Outputs for CAN_SNIFFER\Gerber\CAN_SNIFFER.GM2
+DItemRevisionGUID=
+
+[GeneratedDocument21]
+DocumentPath=Project Outputs\Gerber\CAN_SNIFFER.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument22]
+DocumentPath=Project Outputs for CAN_SNIFFER\Gerber\CAN_SNIFFER.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument23]
+DocumentPath=Project Outputs\Gerber\CAN_SNIFFER.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument24]
+DocumentPath=Project Outputs for CAN_SNIFFER\Gerber\CAN_SNIFFER.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument25]
+DocumentPath=Project Outputs\Gerber\CAN_SNIFFER.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument26]
+DocumentPath=Project Outputs for CAN_SNIFFER\Gerber\CAN_SNIFFER.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument27]
+DocumentPath=Project Outputs\Gerber\CAN_SNIFFER.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument28]
+DocumentPath=Project Outputs for CAN_SNIFFER\Gerber\CAN_SNIFFER.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument29]
+DocumentPath=Project Outputs\NC Drill\CAN_SNIFFER.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument30]
+DocumentPath=Project Outputs for CAN_SNIFFER\NC Drill\CAN_SNIFFER.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument31]
+DocumentPath=Project Outputs\Gerber\CAN_SNIFFER.REP
+DItemRevisionGUID=
+
+[GeneratedDocument32]
+DocumentPath=Project Outputs for CAN_SNIFFER\Gerber\CAN_SNIFFER.REP
+DItemRevisionGUID=
+
+[GeneratedDocument33]
+DocumentPath=Project Outputs\Gerber\CAN_SNIFFER.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument34]
+DocumentPath=Project Outputs for CAN_SNIFFER\Gerber\CAN_SNIFFER.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument35]
+DocumentPath=doc\CAN_SNIFFER.step
+DItemRevisionGUID=
+
+[GeneratedDocument36]
+DocumentPath=Project Outputs\Pick Place\Pick Place for CAN_SNIFFER.csv
+DItemRevisionGUID=
+
+[GeneratedDocument37]
+DocumentPath=Project Outputs for CAN_SNIFFER\Pick Place\Pick Place for CAN_SNIFFER.csv
+DItemRevisionGUID=
+
+[GeneratedDocument38]
+DocumentPath=Project Outputs\Pick Place\Pick Place for CAN_SNIFFER.txt
+DItemRevisionGUID=
+
+[GeneratedDocument39]
 DocumentPath=Project Outputs for CAN_SNIFFER\Pick Place\Pick Place for CAN_SNIFFER.txt
 DItemRevisionGUID=
 
+[GeneratedDocument40]
+DocumentPath=doc\view-bottom.png
+DItemRevisionGUID=
+
+[GeneratedDocument41]
+DocumentPath=doc\view-top.png
+DItemRevisionGUID=
+
+[GeneratedDocument42]
+DocumentPath=doc\view.png
+DItemRevisionGUID=
+
 [Parameter1]
-Name=Quantity
-Value=10
+Name=Version
+Value=1.1
 
 [Configuration1]
 Name=Default Configuration
@@ -269,7 +395,7 @@ SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=-1
 
 [Generic_EDE]
-OutputDir=
+OutputDir=Project Outputs for CAN_SNIFFER
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -380,7 +506,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=PDFCreator
+TargetPrinter=гараж
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
