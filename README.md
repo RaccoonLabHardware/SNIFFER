@@ -64,7 +64,6 @@ None
 - Detailed information of assembly:
 ~~~
 Firmware is in attachements.
-Take a look at the picure in attachements PWM1, PWM2 should be installed from the side.
 ~~~
 
 ## Device and Documentation Support
