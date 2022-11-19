@@ -63,7 +63,9 @@ None
 - Firmware loading: Yes
 - Detailed information of assembly:
 ~~~
-Firmware is in attachements.
+Firmware is in attachements in folder 'firmware', programming should be done in the part directly before assembly.
+'can-uart.bin' is for DD1 (STM32F103T8U6)
+'Protected-2-1-Bootloader.bin' is for U4 (STM32F103CBT6)
 ~~~
 
 ## Device and Documentation Support
