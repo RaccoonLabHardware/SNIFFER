@@ -143,7 +143,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document7]
-DocumentPath=CAMtastic1.Cam
+DocumentPath=Project Outputs\CAMtastic1.Cam
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -164,90 +164,98 @@ DocumentPath=Project Outputs\BOM\Bill of Materials-BOM.xlsx
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Project Outputs\NC Drill\PCB-RoundHoles.TXT
+DocumentPath=Project Outputs\BOM\BOMtxt-BOM.txt
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=Project Outputs\NC Drill\PCB-SlotHoles.TXT
+DocumentPath=Project Outputs\NC Drill\PCB-RoundHoles.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=Project Outputs\NC Drill\PCB.DRR
+DocumentPath=Project Outputs\NC Drill\PCB-SlotHoles.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=Project Outputs\Gerber\PCB.EXTREP
+DocumentPath=Project Outputs\NC Drill\PCB.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=Project Outputs\Gerber\PCB.GBL
+DocumentPath=Project Outputs\Gerber\PCB.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=Project Outputs\Gerber\PCB.GBO
+DocumentPath=Project Outputs\Gerber\PCB.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Project Outputs\Gerber\PCB.GBP
+DocumentPath=Project Outputs\Gerber\PCB.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=Project Outputs\Gerber\PCB.GBS
+DocumentPath=Project Outputs\Gerber\PCB.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=Project Outputs\Gerber\PCB.GM2
+DocumentPath=Project Outputs\Gerber\PCB.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=Project Outputs\Gerber\PCB.GTL
+DocumentPath=Project Outputs\Gerber\PCB.GM2
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=Project Outputs\Gerber\PCB.GTO
+DocumentPath=Project Outputs\Gerber\PCB.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=Project Outputs\Gerber\PCB.GTP
+DocumentPath=Project Outputs\Gerber\PCB.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=Project Outputs\Gerber\PCB.GTS
+DocumentPath=Project Outputs\Gerber\PCB.GTP
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=Project Outputs\NC Drill\PCB.LDP
+DocumentPath=Project Outputs\Gerber\PCB.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument16]
-DocumentPath=Project Outputs\Gerber\PCB.REP
+DocumentPath=Project Outputs\NC Drill\PCB.LDP
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=Project Outputs\Gerber\PCB.RUL
+DocumentPath=Project Outputs\Gerber\PCB.REP
 DItemRevisionGUID=
 
 [GeneratedDocument18]
-DocumentPath=Project Outputs\Pick Place\Pick Place for PCB.csv
+DocumentPath=Project Outputs\Gerber\PCB.RUL
 DItemRevisionGUID=
 
 [GeneratedDocument19]
-DocumentPath=Project Outputs\Pick Place\Pick Place for PCB.txt
+DocumentPath=Project Outputs\Pick Place\Pick Place for PCB.csv
 DItemRevisionGUID=
 
 [GeneratedDocument20]
-DocumentPath=doc\SNIFFER.step
+DocumentPath=Project Outputs\Pick Place\Pick Place for PCB.txt
 DItemRevisionGUID=
 
 [GeneratedDocument21]
-DocumentPath=doc\view-bottom.png
+DocumentPath=Project Outputs\WireListNetlist\SNIFFER.NET
 DItemRevisionGUID=
 
 [GeneratedDocument22]
-DocumentPath=doc\view-top.png
+DocumentPath=doc\SNIFFER.step
 DItemRevisionGUID=
 
 [GeneratedDocument23]
+DocumentPath=doc\view-bottom.png
+DItemRevisionGUID=
+
+[GeneratedDocument24]
+DocumentPath=doc\view-top.png
+DItemRevisionGUID=
+
+[GeneratedDocument25]
 DocumentPath=doc\view.png
 DItemRevisionGUID=
 
@@ -413,7 +421,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=гараж
+TargetPrinter=Xprinter XP-365B
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -913,6 +921,36 @@ OutputName11=Export STEP
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
+OutputType12=Ansoft Neutral
+OutputName12=Ansoft Neutral (AutoPCB)
+OutputDocumentPath12=
+OutputVariantName12=
+OutputDefault12=0
+OutputType13=HyperLynx
+OutputName13=HyperLynx (AutoPCB)
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
+OutputType14=Orcad v7 Capture Design
+OutputName14=Orcad v7 Capture Design (AutoSCH)
+OutputDocumentPath14=
+OutputVariantName14=
+OutputDefault14=0
+OutputType15=P-CAD ASCII
+OutputName15=P-CAD ASCII (AutoPCB)
+OutputDocumentPath15=
+OutputVariantName15=
+OutputDefault15=0
+OutputType16=P-CAD V16 Schematic Design
+OutputName16=P-CAD V16 Schematic Design (AutoSCH)
+OutputDocumentPath16=
+OutputVariantName16=
+OutputDefault16=0
+OutputType17=SiSoft
+OutputName17=SiSoft (AutoPCB)
+OutputDocumentPath17=
+OutputVariantName17=
+OutputDefault17=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
