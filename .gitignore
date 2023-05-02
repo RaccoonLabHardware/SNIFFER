@@ -1,8 +1,12 @@
 History/
 Project Logs for */
 *.PrjPcbStructure
-*.step
 *.rar
-*.zip
+*.jpg
 __Previews/
+Status Report.Txt
+*.htm
+*.html
 ~*
+pcb-versions/
+paths.json
