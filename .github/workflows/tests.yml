@@ -16,6 +16,22 @@ jobs:
           token: ${{ secrets.ACCESS_TOKEN }}
           path: repo/pcb-versions
 
-      - name: Basic Altium Output Files, BOM And Version Resistors Checkout 
+      - name: Check that all needed files exists (test-files-exists.py)
         run: |
-          cd repo && ls && pip install openpyxl && python pcb-versions/tests.py
+          cd repo && python pcb-versions/test-files-exists.py
+
+      - name: Generate dict BOMList from BOM file
+        run: |
+          cd repo && pip install openpyxl && python pcb-versions/test-generateBOM.py
+
+      - name: Check Version Resistors is correct if exists (test-versions.py)
+        run: |
+          cd repo && python pcb-versions/test-versions.py
+
+      - name: Check Manufacturer Partnumber (test-wrong-MP.py)
+        run: |
+          cd repo && python pcb-versions/test-wrong-MP.py
+
+      - name: All other tests that can be added in future
+        run: |
+          cd repo && pip install steputils && python pcb-versions/test-other.py
