@@ -1,47 +1,87 @@
-This device allows you to flash the programm to stm32 MCUs using SWD and get data from UAVCAN.
+# Cyphal and DroneCAN Sniffer and Programmer
 
-## Fabrication order
+<img src="doc/view.png" alt="drawing" height="300"/>
+
+## Mechanical Specification
+
+<img src="doc/drw.png" alt="drawing"/>
+
+## Order from PCBWay
 
 You can order this PCB by this link https://www.pcbway.com/project/shareproject/ST_Link_programmer_and_UAVCAN_sniffer.html
 
+## Order details
 
-## Special thanks for
+### PCB Specification Selection
 
-https://github.com/GolinskiyKonstantin/ST-Link-V2-1
+- Board type : Panel by PCBWay
+- Break-away rail: Yes
+- Instructions:
+~~~
+None
+~~~
+- Route Process: Panel as PCBWay prefer
+- X-out Allowance in Panel:  Accept
 
-https://habr.com/ru/post/442290/
+- Size (single): 31.9 x 51.9 mm
+- Quantity (single): 50
+- Layers: 2
 
-## UAVCAN 
+- Material: FR-4
+- FR4-TG: TG 150-160
+- Thickness: 1.6
+- Min Track/Spacing: 6/6mil (0.17 mm)
+- Min Hole Size: 0.3 mm
+- Solder Mask: Black
+- Silkscreen: White
+- Edge connector: No
+- Surface Finish: HASL with lead
+- Yes - Tick means you accept we might change "HASL" to "ENIG" at our discretion without extra charge.
+- Via Process: Tenting vias
+- Finished Copper: 1 oz Cu
+- Other Special request:
+~~~
+None
+~~~
 
-GUI Tool 
+### Assembly Service
 
-https://legacy.uavcan.org/GUI_Tool/Overview/
+- Turnkey
+- Board type : Panelized PCBs
+-  Assembly Side(s): Both sides
+- Quantity: 50
+- Contains Sensitive components/parts - No; 
+- Do you accept alternatives/substitutes made in China? - Yes
 
-repo
+- Number of Unique Parts: 22
+- Number of SMD Parts: 51
+- Number of BGA/QFP Parts: 0 
+- Number of Through-Hole Parts: 1
 
-https://github.com/UAVCAN/gui_tool
+### Additional Options
 
-## To flash the programmer
+- Firmware loading: Yes
+- Detailed information of assembly:
+~~~
+Firmware is in attachements in folder 'firmware', programming should be done in the part directly before assembly.
+'can-uart.bin' is for DD1 (STM32F103T8U6)
+'Protected-2-1-Bootloader.bin' is for U4 (STM32F103CBT6)
+~~~
 
-Install exactly this version of STM32 ST-LINK Utility v4.3.0
+## Device and Documentation Support
 
-Take another programmer
+- [User manual](https://raccoonlabdev.github.io/docs/guide/programmer_sniffer/)
+- [Hardware docs](doc/doc.pdf)
 
-Flash the Protected-2-1-Bootloader.bin
+## Device Support
 
-Now connect new programmer to USB and press update in STM32 ST-LINK Utility v4.3.0
+- [Firmware sources](https://github.com/RaccoonlabDev/node)
+- [Firmware binary](https://github.com/RaccoonLabHardware/SNIFFER/tree/v1.3/firmware)
 
-Choose STM32 + MSD + VCP
+## TERMS OF USAGE / LICENCE
 
-Profit
+The material provided in this Github repository is subject to the following conditions. 
 
-## To flash the CAN-SNIFFER
+Firmware files: All firmwares are free (but not open source). Besides unlimited private use you are also granted the permission to use them for commercial purposes under the condition that (1) you don’t modify the firmware, e.g. remove or change copyright statements, (2) provide it for free, i.e. don’t charge any explicit or implicit fees to your customers, and (3) correctly and clearly cite the origin of the firmware and the project web page in any product documentation or web page. 
 
-Connect programmer output to  programming port  of CAN-SNIFFER MCU
-
-Flash the can-uart.bin
-
-Profit
-
-
-
+Hardware files: All hardware, for which material is provided, is open source hardware, under the terms of the TAPR Open Hardware License as published by the Free Hardware Foundation, see http://www.tapr.org/ohl.html. The TAPR license explicitly permits essentially unlimited commercial use, with only few conditions such as that copyright logos are not removed.
