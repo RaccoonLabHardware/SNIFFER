@@ -32,6 +32,10 @@ jobs:
         run: |
           cd repo && python pcb-versions/test-wrong-MP.py
 
+      - name: Check that all BOM components contains in 'pick and place' (test-BOM-PNP.py)
+        run: |
+          cd repo && pip install pandas && python pcb-versions/test-BOM-PNP.py      
+
       - name: All other tests that can be added in future
         run: |
           cd repo && pip install steputils && python pcb-versions/test-other.py

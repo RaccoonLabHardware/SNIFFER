@@ -261,7 +261,7 @@ DItemRevisionGUID=
 
 [Parameter1]
 Name=Version
-Value=1.4
+Value=1.3.1
 
 [Configuration1]
 Name=Default Configuration
