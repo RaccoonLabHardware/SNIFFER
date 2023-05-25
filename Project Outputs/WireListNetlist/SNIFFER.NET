@@ -27,9 +27,11 @@ LTST-C19HE1WT                   LED1           LTST-C19HE1WT
 RC0402FR-07330RL                R1             RESC1005X40N
 RC0402FR-07330RL                R2             RESC1005X40N
 RC0402FR-07330RL                R3             RESC1005X40N
+RC0402FR-075K1L                 R4             RESC1005X40N
 RC0603FR-07120RL                R5             J1-0603
 RC0402FR-0710KL                 R6             RESC1005X40N
 RC0402FR-0710KL                 R7             RESC1005X40N
+RC0402FR-075K1L                 R8             RESC1005X40N
 RC0402FR-071KL                  R11            RESC1005X40N
 RC0402FR-0722RL                 R16            RESC1005X40N
 RC0402FR-0722RL                 R17            RESC1005X40N
@@ -255,29 +257,37 @@ CSTCE8M00G55-R0                 Y2             *OSC_CSTCE8M00G55-R0
         LED1       1       R              PASSIVE     LTST-C19HE1WT
         R1         2       2              PASSIVE     RC0402FR-07330RL
 
-[00018] NetDD1_3
+[00020] NetDD1_3
         DD1        3       OSC_OUT/PD1    OUTPUT      STM32F103T8
         Y1         3       3              PASSIVE     CSTCE8M00G55-R0
 
-[00017] NetDD1_2
+[00019] NetDD1_2
         DD1        2       OSC_IN/PD0     INPUT       STM32F103T8
         Y1         1       1              PASSIVE     CSTCE8M00G55-R0
 
-[00016] Net3V3_A
+[00018] Net3V3_A
         3V3        A       A              PASSIVE     0603-LED-RED
         R11        2       2              PASSIVE     RC0402FR-071KL
 
-[00015] LED_STLINK
+[00017] LED_STLINK
         R1         1       1              PASSIVE     RC0402FR-07330RL
         U4         30      PA9            I/O         STM32F103CBT6
 
-[00014] LED_BLUE
+[00016] LED_BLUE
         DD1        12      PA5            I/O         STM32F103T8
         R3         1       1              PASSIVE     RC0402FR-07330RL
 
-[00013] LED
+[00015] LED
         DD1        11      PA4            I/O         STM32F103T8
         R2         1       1              PASSIVE     RC0402FR-07330RL
+
+[00014] IP1
+        J1         B5      CC2            I/O         UJ31-CH-31N-SMT-TR
+        R8         1       1              PASSIVE     RC0402FR-075K1L
+
+[00013] IP0
+        J1         A5      CC1            I/O         UJ31-CH-31N-SMT-TR
+        R4         1       1              PASSIVE     RC0402FR-075K1L
 
 [00012] GND
         3V3        C       C              PASSIVE     0603-LED-RED
@@ -323,7 +333,9 @@ CSTCE8M00G55-R0                 Y2             *OSC_CSTCE8M00G55-R0
         J2         6       6              PASSIVE     SM06B-SRSS-TB(LF)(SN)
         J2         S1      SHIELD         PASSIVE     SM06B-SRSS-TB(LF)(SN)
         J2         S2      SHIELD         PASSIVE     SM06B-SRSS-TB(LF)(SN)
+        R4         2       2              PASSIVE     RC0402FR-075K1L
         R6         1       1              PASSIVE     RC0402FR-0710KL
+        R8         2       2              PASSIVE     RC0402FR-075K1L
         R21        2       2              PASSIVE     RC0402FR-0710KL
         R22        2       2              PASSIVE     RC0402FR-0710KL
         R23        1       1              PASSIVE     RC0402FR-0710KL

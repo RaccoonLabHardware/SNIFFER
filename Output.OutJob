@@ -21,7 +21,7 @@ TargetOutputMedium=Folder Structure
 VariantName=[No Variations]
 VariantScope=1
 CurrentConfigurationName=
-TargetPrinter=ECOSYS M3645dn база
+TargetPrinter=Xprinter XP-365B
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputMedium1=Print Job
 OutputMedium1_Type=Printer
@@ -122,17 +122,17 @@ PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintS
 Configuration5_Name1=ColumnNameFormat
 Configuration5_Item1=CaptionAsName
 Configuration5_Name2=General
-Configuration5_Item2=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|TemplateVaultGuid=|TemplateItemGuid=|TemplateRevisionGuid=|BatchMode=2|FormWidth=1200|FormHeight=710|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=USD|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=2|UseDirectApi=False|BomSetName=
+Configuration5_Item2=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|TemplateVaultGuid=|TemplateItemGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=1200|FormHeight=710|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=USD|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=2|UseDirectApi=False|BomSetName=
 Configuration5_Name3=GroupOrder
 Configuration5_Item3=Comment=True|Footprint=True
 Configuration5_Name4=SortOrder
 Configuration5_Item4=Designator=Up
 Configuration5_Name5=VisibleOrder
-Configuration5_Item5=Designator=120|Quantity=67|MF=109|MP=130|Description=120|Value=55|Package=119|Type=57|Instructions=103|HelpURL=67
+Configuration5_Item5=Designator=120|Quantity=67|MF=109|MP=130|Description=120|Value=55|Package=119|Type=57|Instructions=103|HelpURL=67|System=100
 Configuration5_Name6=VisibleOrder_Base
 Configuration5_Item6=Designator=120|Quantity=67|MF=109|MP=130|Description=120|Value=55|Package=119|Type=57|Instructions=103|HelpURL=67|ChipDip_Link=91
 Configuration5_Name7=VisibleOrder_Consolidated
-Configuration5_Item7=Designator=120|Quantity=67|MF=109|MP=130|Description=120|Value=55|Package=119|Type=57|Instructions=103|HelpURL=67
+Configuration5_Item7=Designator=120|Quantity=67|MF=109|MP=130|Description=120|Value=55|Package=119|Type=57|Instructions=103|HelpURL=67|System=100
 Configuration5_Name8=VisibleOrder_Flat
 Configuration5_Item8=Line #=54|Description=120|Comment=70|Designator=120|Manufacturer 1=102|Manufacturer Part Number 1=169|Manufacturer Lifecycle 1=147|Supplier 1=75|Supplier Part Number 1=142|Supplier Unit Price 1=127|Supplier Subtotal 1=122
 OutputType6=PDF3D
@@ -168,7 +168,7 @@ OutputEnabled7_OutputMedium7=0
 OutputDefault7=0
 PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=5.40|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration7_Name1=OutputConfigurationParameter1
-Configuration7_Item1=Record=Pcb3DPrintView|ResX=600|ResY=600|ViewX=16772205|ViewY=14130662|LookAtX=23680384|LookAtY=16171214|LookAtZ=-17509.6640625|UpX=-0.50948303937912|UpY=0.330537527799606|UpZ=-0.794463336467743|FOV=45|QuatX=-0.335084408521652|QuatY=-0.304700881242752|QuatZ=0.471645802259445|QuatW=0.756588459014893|Zoom=6.1285972975346E-5|UnitsPercent=True|UnitsDPI=True|LockResAspect=True|ViewConfigType=.config_3d|CustomCamera=True|ViewFromTop=True|ScreenWidth=1054|ScreenHeight=888|ImageOutputType=1|ViewConfig=RECORD\3Board\2CFGALL.CONFIGURATIONKIND\33\2CFGALL.CONFIGURATIONDESC\3Altium%203D%20NB%20Black%20Configuration\2CFGALL.COMPONENTBODYREFPOINTCOLOR\316777215\2CFGALL.COMPONENTBODYSNAPPOINTCOLOR\316777215\2CFGALL.SHOWCOMPONENTSNAPMARKERS\3FALSE\2CFGALL.SHOWCOMPONENTSNAPREFERENCE\3FALSE\2CFGALL.SHOWCOMPONENTSNAPCUSTOM\3FALSE\2CFG3D.POSITIVETOPSOLDERMASK\3TRUE\2CFG3D.POSITIVEBOTTOMSOLDERMASK\3TRUE\2CFG3D.SHOWCOMPONENTBODIES\3TRUE\2CFG3D.SHOWCOMPONENTSTEPMODELS\3TRUE\2CFG3D.COMPONENTMODELPREFERENCE\30\2CFG3D.SHOWCOMPONENTAXES\3TRUE\2CFG3D.SHOWBOARDCORE\3TRUE\2CFG3D.SHOWBOARDPREPREG\3TRUE\2CFG3D.SHOWTOPSILKSCREEN\3TRUE\2CFG3D.SHOWBOTSILKSCREEN\3TRUE\2CFG3D.SHOWORIGINMARKER\3TRUE\2CFG3D.EYEDIST\32000\2CFG3D.SHOWCUTOUTS\3TRUE\2CFG3D.SHOWROUTETOOLPATH\3TRUE\2CFG3D.SHOWROOMS3D\3FALSE\2CFG3D.USESYSCOLORSFOR3D\3FALSE\2CFG3D.WORKSPACECOLOR\311840160\2CFG3D.BOARDCORECOLOR\313491161\2CFG3D.BOARDPREPREGCOLOR\30\2CFG3D.TOPSOLDERMASKCOLOR\30\2CFG3D.BOTSOLDERMASKCOLOR\30\2CFG3D.COPPERCOLOR\33323360\2CFG3D.TOPSILKSCREENCOLOR\315461355\2CFG3D.BOTSILKSCREENCOLOR\315461355\2CFG3D.WORKSPACELUMINANCEVARIATION\330\2CFG3D.WORKSPACEBEGINCOLOR\36710886\2CFG3D.WORKSPACEENDCOLOR\313421772\2CFG3D.WORKSPACECOLOROPACITY\31.000000\2CFG3D.BOARDCORECOLOROPACITY\30.820000\2CFG3D.BOARDPREPREGCOLOROPACITY\30.500000\2CFG3D.TOPSOLDERMASKCOLOROPACITY\30.900000\2CFG3D.BOTSOLDERMASKCOLOROPACITY\30.900000\2CFG3D.COPPERCOLOROPACITY\31.000000\2CFG3D.TOPSILKSCREENCOLOROPACITY\31.000000\2CFG3D.BOTSILKSCREENCOLOROPACITY\31.000000\2CFG3D.BOARDTHICKNESSSCALING\31.000000\2CFG3D.SHOWMECHANICALLAYERS\3FALSE\2CFG3D.MECHANICALLAYERSOPACITY\31.000000\2CFG3D.MECHCOVERLAYERUPDATED\3FALSE|DocumentPath=C:\altium workspace\RCL\uNODE\PCB.PcbDoc
+Configuration7_Item1=Record=Pcb3DPrintView|ResX=600|ResY=600|ViewX=17061526|ViewY=14374417|LookAtX=23590318|LookAtY=17025028|LookAtZ=-17510.69921875|UpX=-0.208149507641792|UpY=0.769460201263428|UpZ=-0.603825092315674|FOV=45|QuatX=-0.310664087533951|QuatY=-0.0782277956604958|QuatZ=0.136958837509155|QuatW=0.937342226505279|Zoom=6.17764174120241E-5|UnitsPercent=True|UnitsDPI=True|LockResAspect=True|ViewConfigType=.config_3d|CustomCamera=True|ViewFromTop=True|ScreenWidth=1054|ScreenHeight=888|ImageOutputType=1|ViewConfig=RECORD\3Board\2CFGALL.CONFIGURATIONKIND\33\2CFGALL.CONFIGURATIONDESC\3Altium%203D%20NB%20Black%20Configuration\2CFGALL.COMPONENTBODYREFPOINTCOLOR\316777215\2CFGALL.COMPONENTBODYSNAPPOINTCOLOR\316777215\2CFGALL.SHOWCOMPONENTSNAPMARKERS\3FALSE\2CFGALL.SHOWCOMPONENTSNAPREFERENCE\3FALSE\2CFGALL.SHOWCOMPONENTSNAPCUSTOM\3FALSE\2CFG3D.POSITIVETOPSOLDERMASK\3TRUE\2CFG3D.POSITIVEBOTTOMSOLDERMASK\3TRUE\2CFG3D.SHOWCOMPONENTBODIES\3TRUE\2CFG3D.SHOWCOMPONENTSTEPMODELS\3TRUE\2CFG3D.COMPONENTMODELPREFERENCE\30\2CFG3D.SHOWCOMPONENTAXES\3TRUE\2CFG3D.SHOWBOARDCORE\3TRUE\2CFG3D.SHOWBOARDPREPREG\3TRUE\2CFG3D.SHOWTOPSILKSCREEN\3TRUE\2CFG3D.SHOWBOTSILKSCREEN\3TRUE\2CFG3D.SHOWORIGINMARKER\3TRUE\2CFG3D.EYEDIST\32000\2CFG3D.SHOWCUTOUTS\3TRUE\2CFG3D.SHOWROUTETOOLPATH\3TRUE\2CFG3D.SHOWROOMS3D\3FALSE\2CFG3D.USESYSCOLORSFOR3D\3FALSE\2CFG3D.WORKSPACECOLOR\311840160\2CFG3D.BOARDCORECOLOR\313491161\2CFG3D.BOARDPREPREGCOLOR\30\2CFG3D.TOPSOLDERMASKCOLOR\30\2CFG3D.BOTSOLDERMASKCOLOR\30\2CFG3D.COPPERCOLOR\33323360\2CFG3D.TOPSILKSCREENCOLOR\315461355\2CFG3D.BOTSILKSCREENCOLOR\315461355\2CFG3D.WORKSPACELUMINANCEVARIATION\330\2CFG3D.WORKSPACEBEGINCOLOR\36710886\2CFG3D.WORKSPACEENDCOLOR\313421772\2CFG3D.WORKSPACECOLOROPACITY\31.000000\2CFG3D.BOARDCORECOLOROPACITY\30.820000\2CFG3D.BOARDPREPREGCOLOROPACITY\30.500000\2CFG3D.TOPSOLDERMASKCOLOROPACITY\30.900000\2CFG3D.BOTSOLDERMASKCOLOROPACITY\30.900000\2CFG3D.COPPERCOLOROPACITY\31.000000\2CFG3D.TOPSILKSCREENCOLOROPACITY\31.000000\2CFG3D.BOTSILKSCREENCOLOROPACITY\31.000000\2CFG3D.BOARDTHICKNESSSCALING\31.000000\2CFG3D.SHOWMECHANICALLAYERS\3FALSE\2CFG3D.MECHANICALLAYERSOPACITY\31.000000\2CFG3D.MECHCOVERLAYERUPDATED\3FALSE|DocumentPath=C:\altium workspace\RCL\SQ-PCB-Template\PCB.PcbDoc
 OutputType8=ExportSTEP
 OutputName8=Export STEP
 OutputCategory8=Export
@@ -274,11 +274,11 @@ Configuration13_Item3=
 Configuration13_Name4=SortOrder
 Configuration13_Item4=Designator=Up
 Configuration13_Name5=VisibleOrder
-Configuration13_Item5=Designator=126|Quantity=67|MF=82|MP=177|Description=132|Value=57|Package=65|Type=57|Instructions=103|HelpURL=133
+Configuration13_Item5=Designator=126|Quantity=67|MF=82|MP=177|Description=132|Value=57|Package=65|Type=57|Instructions=103|HelpURL=133|System=100
 Configuration13_Name6=VisibleOrder_Base
 Configuration13_Item6=Designator=135|Quantity=67|MF=109|MP=130|Description=82|Value=55|Package=119|Type=57|Instructions=103|HelpURL=67|ChipDip_Link=91
 Configuration13_Name7=VisibleOrder_Consolidated
-Configuration13_Item7=Designator=126|Quantity=67|MF=82|MP=177|Description=132|Value=57|Package=65|Type=57|Instructions=103|HelpURL=133
+Configuration13_Item7=Designator=126|Quantity=67|MF=82|MP=177|Description=132|Value=57|Package=65|Type=57|Instructions=103|HelpURL=133|System=100
 Configuration13_Name8=VisibleOrder_Flat
 Configuration13_Item8=Line #=54|Comment=52|Description=82|Designator=80|Manufacturer 1=102|Manufacturer Part Number 1=169|Manufacturer Lifecycle 1=147|Supplier 1=75|Supplier Part Number 1=142|Supplier Unit Price 1=127|Supplier Subtotal 1=122
 OutputType14=Board Stack Report
@@ -300,7 +300,7 @@ Configuration14_Name1=OutputConfigurationParameter1
 Configuration14_Item1=Record=LayerStackReportView|Units=Metric|DocumentPath=C:\altium workspace\RCL\uNODE\PCB.PcbDoc
 
 [PublishSettings]
-OutputFilePath2=C:\altium workspace\RCL\uNODE\doc\Schematic.PDF
+OutputFilePath2=C:\altium workspace\RCL\SQ-PCB-Template\doc\doc.pdf
 ReleaseManaged2=0
 OutputBasePath2=doc\
 OutputPathMedia2=
@@ -330,7 +330,7 @@ PDFVersion2=Default
 ExcludedParamCount=2
 ExcludedParam0=Value
 ExcludedParam1=HelpURL
-OutputFilePath3=C:\altium workspace\RCL\uNODE\Project Outputs\
+OutputFilePath3=C:\altium workspace\RCL\SQ-PCB-Template\Project Outputs\
 ReleaseManaged3=0
 OutputBasePath3=Project Outputs\
 OutputPathMedia3=
@@ -343,7 +343,7 @@ OutputFileNameMulti3=
 UseOutputNameForMulti3=1
 OutputFileNameSpecial3=
 OpenOutput3=0
-OutputFilePath4=C:\altium workspace\RCL\AIRSPEED\doc\
+OutputFilePath4=C:\altium workspace\RCL\SQ-PCB-Template\doc\
 ReleaseManaged4=0
 OutputBasePath4=doc\
 OutputPathMedia4=
@@ -356,7 +356,7 @@ OutputFileNameMulti4==ProjectName
 UseOutputNameForMulti4=0
 OutputFileNameSpecial4=
 OpenOutput4=1
-OutputFilePath5=C:\altium workspace\RCL\uNODE\doc\
+OutputFilePath5=C:\altium workspace\RCL\SQ-PCB-Template\doc\
 ReleaseManaged5=0
 OutputBasePath5=doc\
 OutputPathMedia5=
@@ -369,7 +369,7 @@ OutputFileNameMulti5=view
 UseOutputNameForMulti5=0
 OutputFileNameSpecial5=
 OpenOutput5=1
-OutputFilePath6=C:\altium workspace\RCL\uNODE\doc\
+OutputFilePath6=C:\altium workspace\RCL\SQ-PCB-Template\doc\
 ReleaseManaged6=0
 OutputBasePath6=doc\
 OutputPathMedia6=
@@ -382,7 +382,7 @@ OutputFileNameMulti6=view-top
 UseOutputNameForMulti6=0
 OutputFileNameSpecial6=
 OpenOutput6=1
-OutputFilePath7=C:\altium workspace\RCL\uNODE\doc\
+OutputFilePath7=C:\altium workspace\RCL\SQ-PCB-Template\doc\
 ReleaseManaged7=0
 OutputBasePath7=doc\
 OutputPathMedia7=
@@ -397,9 +397,9 @@ OutputFileNameSpecial7=
 OpenOutput7=1
 
 [GeneratedFilesSettings]
-RelativeOutputPath2=C:\altium workspace\RCL\uNODE\doc\Schematic.PDF
+RelativeOutputPath2=C:\altium workspace\RCL\SQ-PCB-Template\doc\doc.pdf
 OpenOutputs2=0
-RelativeOutputPath3=C:\altium workspace\RCL\uNODE\Project Outputs\
+RelativeOutputPath3=C:\altium workspace\RCL\SQ-PCB-Template\Project Outputs\
 OpenOutputs3=0
 AddToProject3=1
 TimestampFolder3=0
@@ -409,7 +409,7 @@ OpenGerberOutput3=1
 OpenNCDrillOutput3=1
 OpenIPCOutput3=0
 EnableReload3=0
-RelativeOutputPath4=C:\altium workspace\RCL\AIRSPEED\doc\
+RelativeOutputPath4=C:\altium workspace\RCL\SQ-PCB-Template\doc\
 OpenOutputs4=1
 AddToProject4=1
 TimestampFolder4=0
@@ -419,7 +419,7 @@ OpenGerberOutput4=0
 OpenNCDrillOutput4=0
 OpenIPCOutput4=0
 EnableReload4=0
-RelativeOutputPath5=C:\altium workspace\RCL\uNODE\doc\
+RelativeOutputPath5=C:\altium workspace\RCL\SQ-PCB-Template\doc\
 OpenOutputs5=1
 AddToProject5=1
 TimestampFolder5=0
@@ -429,7 +429,7 @@ OpenGerberOutput5=0
 OpenNCDrillOutput5=0
 OpenIPCOutput5=0
 EnableReload5=0
-RelativeOutputPath6=C:\altium workspace\RCL\uNODE\doc\
+RelativeOutputPath6=C:\altium workspace\RCL\SQ-PCB-Template\doc\
 OpenOutputs6=1
 AddToProject6=1
 TimestampFolder6=0
@@ -439,7 +439,7 @@ OpenGerberOutput6=0
 OpenNCDrillOutput6=0
 OpenIPCOutput6=0
 EnableReload6=0
-RelativeOutputPath7=C:\altium workspace\RCL\uNODE\doc\
+RelativeOutputPath7=C:\altium workspace\RCL\SQ-PCB-Template\doc\
 OpenOutputs7=1
 AddToProject7=1
 TimestampFolder7=0

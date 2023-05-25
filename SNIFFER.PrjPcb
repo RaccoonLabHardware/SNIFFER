@@ -142,23 +142,6 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document7]
-DocumentPath=Project Outputs\CAMtastic1.Cam
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
 [GeneratedDocument1]
 DocumentPath=Project Outputs\BOM\Bill of Materials-BOM.xlsx
 DItemRevisionGUID=
@@ -232,30 +215,34 @@ DocumentPath=Project Outputs\Gerber\PCB.RUL
 DItemRevisionGUID=
 
 [GeneratedDocument19]
-DocumentPath=Project Outputs\Pick Place\Pick Place for PCB.csv
+DocumentPath=Project Outputs\Report Board Stack\PCB.xls
 DItemRevisionGUID=
 
 [GeneratedDocument20]
-DocumentPath=Project Outputs\Pick Place\Pick Place for PCB.txt
+DocumentPath=Project Outputs\Pick Place\Pick Place for PCB.csv
 DItemRevisionGUID=
 
 [GeneratedDocument21]
-DocumentPath=Project Outputs\WireListNetlist\SNIFFER.NET
+DocumentPath=Project Outputs\Pick Place\Pick Place for PCB.txt
 DItemRevisionGUID=
 
 [GeneratedDocument22]
-DocumentPath=doc\SNIFFER.step
+DocumentPath=Project Outputs\WireListNetlist\SNIFFER.NET
 DItemRevisionGUID=
 
 [GeneratedDocument23]
-DocumentPath=doc\view-bottom.png
+DocumentPath=doc\SNIFFER.step
 DItemRevisionGUID=
 
 [GeneratedDocument24]
-DocumentPath=doc\view-top.png
+DocumentPath=doc\view-bottom.png
 DItemRevisionGUID=
 
 [GeneratedDocument25]
+DocumentPath=doc\view-top.png
+DItemRevisionGUID=
+
+[GeneratedDocument26]
 DocumentPath=doc\view.png
 DItemRevisionGUID=
 

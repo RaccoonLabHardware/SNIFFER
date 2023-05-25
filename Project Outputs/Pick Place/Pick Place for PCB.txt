@@ -4,13 +4,15 @@ C:\altium workspace\UAVCAN-Sniffer-STM-Programmer\Project Outputs\Pick Place\Pic
 ========================================================================================================================
 File Design Information:
 
-Date:       02.05.23
-Time:       17:29
-Revision:   620da6aae05ccf5b0df398231d4bec54510eec3e
+Date:       25.05.23
+Time:       11:29
+Revision:   d9604eb9d7bc42b61e0728ea93944a8e5ed21c68
 Variant:    No variations
 Units used: mm
 
 Designator    Comment               Layer       Footprint                           Center-X(mm) Center-Y(mm) Rotation Description                                                                                                                       
+R8            RC0402FR-075K1L       TopLayer    RESC1005X40N                        9.3750       7.0500       0        "0.062¬т 0402 5.1 кќм, 1%, „ип резистор (SMD)"                                                                                    
+R4            RC0402FR-075K1L       TopLayer    RESC1005X40N                        9.3500       8.2000       0        "0.062¬т 0402 5.1 кќм, 1%, „ип резистор (SMD)"                                                                                    
 J2            SM06B-SRSS-TB(LF)(SN) TopLayer    JST_SM06B-SRSS-TB(LF)(SN)           27.0500      -0.2125      0        "Connector Header Surface Mount, Right Angle 6 position 0.039 _1.00mm_"                                                           
 R1            RC0402FR-07330RL      TopLayer    RESC1005X40N                        27.9750      12.5500      0        "0.062¬т 0402 330 ќм, 1%, „ип резистор (SMD)"                                                                                     
 R2            RC0402FR-07330RL      TopLayer    RESC1005X40N                        27.9750      13.6500      0        "0.062¬т 0402 330 ќм, 1%, „ип резистор (SMD)"                                                                                     
