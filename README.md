@@ -1,4 +1,4 @@
-# SNIFFER v1.3.1 hardware 
+# SNIFFER v1.4.0 hardware 
 
 | View | Top | Bottom |
 | ---- | --- | ------ |
@@ -7,7 +7,7 @@
 
 ## Features
 
-# Wiring
+## Wiring
 
 Schematic features. Schematic can be provided via issue.
 
@@ -21,33 +21,32 @@ The node has connectors which are described in the table below.
 | 2 | CAN3 |  |
 | 3 | J1 |  |
 | 4 | SWD1, SWD2 |  |
-| 5 | TARGET SWD1 |  |
 
 [Here](https://docs.raccoonlab.co/guide/wires/) you can find manufacturer part number of connectors it self and its mates.
 
 ## Pin configuration and functions
 
-| Pin N | CAN1 | Pin N | CAN2 | Pin N | TARGETSWD | Pin N | CAN3 | Pin N | J1 | Pin N | SWD1 | Pin N | SWD2 | Pin N | TARGETSWD1 |
-| ----- | ---------------- | ----- | ---------------- | ----- | ---------------- | ----- | ---------------- | ----- | ---------------- | ----- | ---------------- | ----- | ---------------- | ----- | ---------------- |
-| 1 | VBUS | 1 | VBUS | | | 1 | Vin | A1 | GND | 1 | GND | 1 | GND | | |
-| 2 | CAN_H | 2 | CAN_H | | | 2 | Vin | A12 | GND | 2 | SWLK | 2 | SWLK_p | | |
-| 3 | CAN_L | 3 | CAN_L | | | 3 | CAN_H | A4 | VBUS | 3 | SWDIO | 3 | SWDIO_p | | |
-| 4 | GND | 4 | GND | | | 4 | CAN_L | A5 | IP0 | 4 | 3.3 | 4 | 3.3 | | |
-| SH1 | GND | SH1 | GND | | | 5 | GND | A6 | D+ | | | | | | |
-| SH2 | GND | SH2 | GND | 6 | GND | A7 | D- | | | | | | |
-| P1 | GND | A9 | VBUS | | | | | | |
-| P2 | GND | B1 | GND | | | | | | |
-| B12 | GND | | | | | | |
-| B4 | VBUS | | | | | | |
-| B5 | IP1 | | | | | | |
-| B6 | D+ | | | | | | |
-| B7 | D- | | | | | | |
-| B9 | VBUS | | | | | | |
-| SH1 | GND | | | | | | |
-| SH2 | GND | | | | | | |
-| SH3 | GND | | | | | | |
-| SH4 | GND | | | | | | |
-| SH5 | GND | | | | | | |
+| Pin N | CAN1 | Pin N | CAN2 | Pin N | TARGETSWD | Pin N | CAN3 | Pin N | J1 | Pin N | SWD1 | Pin N | SWD2 |
+| ----- | ---------------- | ----- | ---------------- | ----- | ---------------- | ----- | ---------------- | ----- | ---------------- | ----- | ---------------- | ----- | ---------------- |
+| 1 | VBUS | 1 | VBUS | | | 1 | Vin | A1 | GND | 1 | GND | 1 | GND |
+| 2 | CAN_H | 2 | CAN_H | | | 2 | Vin | A12 | GND | 2 | SWLK | 2 | SWLK_p |
+| 3 | CAN_L | 3 | CAN_L | | | 3 | CAN_H | A4 | VBUS | 3 | SWDIO | 3 | SWDIO_p |
+| 4 | GND | 4 | GND | | | 4 | CAN_L | A5 | IP0 | 4 | 3.3 | 4 | 3.3 |
+| SH1 | GND | SH1 | GND | | | 5 | GND | A6 | D+ | | | | |
+| SH2 | GND | SH2 | GND | 6 | GND | A7 | D- | | | | |
+| P1 | GND | A9 | VBUS | | | | |
+| P2 | GND | B1 | GND | | | | |
+| B12 | GND | | | | |
+| B4 | VBUS | | | | |
+| B5 | IP1 | | | | |
+| B6 | D+ | | | | |
+| B7 | D- | | | | |
+| B9 | VBUS | | | | |
+| SH1 | GND | | | | |
+| SH2 | GND | | | | |
+| SH3 | GND | | | | |
+| SH4 | GND | | | | |
+| SH5 | GND | | | | |
 | SH6 | GND |
 
 
@@ -57,16 +56,14 @@ Here you can see all connections of MCU.
 
 | MCU PIN         | PIN Numer | NET Name | Description |
 | ---------- |  -- | --------------  | - |
-| PA0-WKUP       |  10 | WAKE        |  |
+| PB13           |  26 | VBUS        |  |
+| PA8            |  29 | USB_DP_PULLUP  |  |
 | PA12           |  33 | USB_DP      |  |
 | PA11           |  32 | USB_DM      |  |
 | PA0-WKUP       |  7  | TX2/B2      |  |
 | PA2            |  9  | TX2/B2      |  |
-| PA10           |  31 | T_SWO_OUT   |  |
-| PB0            |  18 | T_NRST_OUT  |  |
-| PB14           |  27 | T_JTMS      |  |
-| PA5            |  15 | T_JTCK      |  |
-| PB13           |  26 | T_JTCK      |  |
+| PB7            |  43 | TRSWO       |  |
+| PB3            |  39 | TRACESWO    |  |
 | PB1            |  16 | T3CH4/ADC9  |  |
 | PB0            |  15 | T3CH3/ADC8  |  |
 | PA7            |  14 | T3CH2/ADC7  |  |
@@ -74,39 +71,47 @@ Here you can see all connections of MCU.
 | PA14           |  37 | SWLK_p      |  |
 | PA14/JTCK/SWCLKI/O |  28 | SWLK        |  |
 | PA13           |  34 | SWDIO_p     |  |
-| PB12           |  25 | SWDIO_IN    |  |
 | PA13/JTMS/SWDIOI/O |  25 | SWDIO       |  |
 | NRST           |  7  | STM_RST     |  |
-| PA8            |  20 | STLINK_RX   |  |
-| PA9            |  21 | STLINK_RX   |  |
-| PA3            |  13 | STLINK_RX   |  |
 | PA15/JTDI      |  29 | SPI1_SS     |  |
 | PB3/JTDO       |  30 | SPI1_SCK    |  |
 | PB5            |  32 | SPI1_MOSI   |  |
 | PB4/JNTRST     |  31 | SPI1_MISO   |  |
 | PB7            |  34 | SDA/A1      |  |
 | PB6            |  33 | SCL/A2      |  |
+| PA8            |  20 | RXI         |  |
+| PA9            |  21 | RXI         |  |
+| PA10           |  31 | RXI         |  |
 | PA3            |  10 | RX2/B1      |  |
 | PA10           |  22 | RX1/C1      |  |
-| PA2            |  12 | RX1/C1      |  |
+| PA9            |  30 | RX1/C1      |  |
+| PB1            |  19 | PWR_BR      |  |
 | NRST           |  4  | NRST        |  |
 | PD1-OSC_OUT    |  6  | NetU4_6     |  |
 | PD0-OSC_IN     |  5  | NetU4_5     |  |
-| PC14-OSC32_IN  |  3  | NetR23_2    |  |
-| PC13-TAMPER-RTCI/O |  2  | NetR22_1    |  |
-| BOOT0          |  44 | NetR21_1    |  |
+| PB12           |  25 | NetR13_2    |  |
+| BOOT0          |  44 | NetR9_1     |  |
 | OSC_OUT/PD1    |  3  | NetDD1_3    |  |
 | OSC_IN/PD0     |  2  | NetDD1_2    |  |
-| PA9            |  30 | LED_STLINK  |  |
+| PB0            |  18 | NetC7_2     |  |
 | PA5            |  12 | LED_BLUE    |  |
+| PB11           |  22 | LED2        |  |
+| PB10           |  21 | LED1        |  |
+| PB2            |  20 | LED0        |  |
 | PA4            |  11 | LED         |  |
+| PA4            |  14 | iTMS_SWDIO  |  |
+| PA1            |  11 | iTMS_DIR    |  |
+| PA6            |  16 | iTDO        |  |
+| PA3            |  13 | iTDI        |  |
+| PA5            |  15 | iTCK_SWCLK  |  |
+| PA7            |  17 | iRST_SENSE  |  |
+| PA2            |  12 | iRST        |  |
 | VSSA           |  5  | GND         |  |
 | PB2/BOOT1      |  17 | GND         |  |
 | VSS_2          |  18 | GND         |  |
 | VSS_3          |  26 | GND         |  |
 | VSS_1          |  36 | GND         |  |
 | VSSA           |  8  | GND         |  |
-| PB2            |  20 | GND         |  |
 | VSS_1          |  23 | GND         |  |
 | VSS_2          |  35 | GND         |  |
 | VSS_3          |  47 | GND         |  |
@@ -122,6 +127,9 @@ Here you can see all connections of MCU.
 | VDDA           |  9  | 3.3         |  |
 | VDD_1          |  24 | 3.3         |  |
 | VDD_2          |  36 | 3.3         |  |
+| PB4            |  40 | 3.3         |  |
+| PB5            |  41 | 3.3         |  |
+| PB6            |  42 | 3.3         |  |
 | VDD_3          |  48 | 3.3         |  |
 
 
@@ -135,8 +143,8 @@ Scheme is shown on the picture below. CAN model can be provided via email reques
 
 |       | Width, mm | Length, mm | Height, mm |
 | ----- | --------- | ---------- | ---------- |
-|Outline|      51.9 |       31.9 |        8.1 |
-|PCB    |     51.88 |      31.88 |        1.6 |
+|Outline|      51.9 |       32.0 |        8.1 |
+|PCB    |      51.5 |       32.0 |        1.6 |
 
 Total weight of device less than 50 g.
 
@@ -177,14 +185,14 @@ Device is designed to operate from an input voltage supply range between 4.5 V a
 - Break-away rail: Yes
 - Instructions:
 ~~~
-Final size is larger ( 51.9 x 31.9 mm ) than board it self ( 51.88 x 31.88 mm), 
+Final size is larger ( 51.9 x 32.0 mm ) than board it self ( 51.5 x 32.0 mm), 
 take a look at the picure in attachements. 
 Panel should be designed to be able to install PWM1, PWM2 while assembly.
 ~~~
 - Route Process: Panel as PCBWay prefer
 - X-out Allowance in Panel:  Accept
 
-- Size (single): 51.88 x 31.88 mm
+- Size (single): 51.5 x 32.0 mm
 - Quantity (single): 200
 - Layers: 2 -   ['Top Layer', 'Bottom Layer'] check [PCBway layer stack](https://www.pcbway.com/multi-layer-laminated-structure.html)
 
@@ -202,7 +210,7 @@ Panel should be designed to be able to install PWM1, PWM2 while assembly.
 - Finished Copper: 1 oz Cu
 - Other Special request:
 ~~~
-Final size is larger ( 51.9 x 31.9 mm ) than board it self ( 51.88 x 31.88 mm )
+Final size is larger ( 51.9 x 32.0 mm ) than board it self ( 51.5 x 32.0 mm )
 ~~~
 
 ### Assembly Service
@@ -224,9 +232,8 @@ Final size is larger ( 51.9 x 31.9 mm ) than board it self ( 51.88 x 31.88 mm )
 - Firmware loading: Yes
 - Detailed information of assembly:
 ~~~
-Firmware is in attachements in folder 'firmware', programming should be done in the part directly before assembly.
-'can-uart.bin' is for DD1 (STM32F103T8U6)
-'Protected-2-1-Bootloader.bin' is for U4 (STM32F103CBT6)
+Firmware is in attachements.
+Take a look at the picure in attachements should be installed from the side.
 ~~~
 
 ## Device and Documentation Support
@@ -243,7 +250,7 @@ Firmware is in attachements in folder 'firmware', programming should be done in 
 
 The material provided in this Github repository is subject to the following conditions. 
 
-Firmware files: All firmwares are free (but not open source). Besides unlimited private use you are also granted the permission to use them for commercial purposes under the condition that (1) you don�t modify the firmware, e.g. remove or change copyright statements, (2) provide it for free, i.e. don�t charge any explicit or implicit fees to your customers, and (3) correctly and clearly cite the origin of the firmware and the project web page in any product documentation or web page. 
+Firmware files: All firmwares are free (but not open source). Besides unlimited private use you are also granted the permission to use them for commercial purposes under the condition that (1) you dont modify the firmware, e.g. remove or change copyright statements, (2) provide it for free, i.e. dont charge any explicit or implicit fees to your customers, and (3) correctly and clearly cite the origin of the firmware and the project web page in any product documentation or web page. 
 
 Hardware files: All hardware, for which material is provided, is open source hardware, under the terms of the TAPR Open Hardware License as published by the Free Hardware Foundation, see http://www.tapr.org/ohl.html. The TAPR license explicitly permits essentially unlimited commercial use, with only few conditions such as that copyright logos are not removed.
 
