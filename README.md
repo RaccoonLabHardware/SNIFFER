@@ -56,7 +56,7 @@ Here you can see all connections of MCU.
 
 | MCU PIN         | PIN Numer | NET Name | Description |
 | ---------- |  -- | --------------  | - |
-| PB13           |  26 | VBUS        |  |
+| PB13           |  26 | VBUS_SENSE  |  |
 | PA8            |  29 | USB_DP_PULLUP  |  |
 | PA12           |  33 | USB_DP      |  |
 | PA11           |  32 | USB_DM      |  |
