@@ -4,33 +4,37 @@ C:\altium workspace\UAVCAN-Sniffer-STM-Programmer\Project Outputs\Pick Place\Pic
 ========================================================================================================================
 File Design Information:
 
-Date:       21.10.23
-Time:       17:29
+Date:       30.10.23
+Time:       15:23
 Revision:   44c3fad71063e8889306957c3dd551cdb3371e59
 Variant:    No variations
 Units used: mm
 
 "Designator","Comment","Layer","Footprint","Center-X(mm)","Center-Y(mm)","Rotation","Description"
-"R15","RC0402FR-0710KL","TopLayer","RESC1005X40N","24.9428","16.0274","270","0.062¬т 0402 10 кќм, 1%, „ип резистор (SMD)"
-"R14","RC0402FR-074K7L","TopLayer","RESC1005X40N","25.9080","16.0274","270","0.062¬т 0402 4.7 кќм, 1%, „ип резистор (SMD)"
-"R13","RC0402FR-0710KL","TopLayer","RESC1005X40N","12.5000","13.5000","90","0.062¬т 0402 10 кќм, 1%, „ип резистор (SMD)"
-"R12","RC0402FR-07330RL","TopLayer","RESC1005X40N","18.0000","3.0000","270","0.062¬т 0402 330 ќм, 1%, „ип резистор (SMD)"
-"R10","RC0402FR-07330RL","TopLayer","RESC1005X40N","15.5000","1.0000","270","0.062¬т 0402 330 ќм, 1%, „ип резистор (SMD)"
-"LED2","LTST-C19HE1WT","TopLayer","LTST-C19HE1WT","17.7348","0.7305","90","Blue/Green/Red"
-"C7","GCM155R71H104KE02D","TopLayer","CAPC1005X55N","23.9776","16.0274","270","GCM155R71H104KE02D, „ип 0402 X7R 0.1uF +10% 50V, онденсатор"
+"PX4-DEBUG","JST (JAPAN SOLDERLESS TERMINALS) - SM10B-SRSS-TB(LF)(SN) - HEADER, R/A, 10WAY   Source:  Datasheet","TopLayer","SM10B-SRSS-TB","15.9845","-0.2610","0",""
+"SW1","DSHP02TSGER","TopLayer","DSHP02TSGER","32.8422","14.5796","180","DSHP Series 1.27mm Pitch DIP Switch 4 POS"
+"R17","RC0402FR-0710KL","TopLayer","RESC1005X40N","12.8270","12.0396","90","0.062¬т 0402 10 кќм, 1%, „ип резистор (SMD)"
+"R16","RC0402FR-074K7L","TopLayer","RESC1005X40N","11.7856","12.0396","270","0.062¬т 0402 4.7 кќм, 1%, „ип резистор (SMD)"
+"R15","RC0402FR-0710KL","TopLayer","RESC1005X40N","24.5618","16.0274","270","0.062¬т 0402 10 кќм, 1%, „ип резистор (SMD)"
+"R14","RC0402FR-074K7L","TopLayer","RESC1005X40N","25.5270","16.0020","270","0.062¬т 0402 4.7 кќм, 1%, „ип резистор (SMD)"
+"R13","RC0402FR-0710KL","TopLayer","RESC1005X40N","11.9634","13.9446","0","0.062¬т 0402 10 кќм, 1%, „ип резистор (SMD)"
+"R12","RC0402FR-07330RL","TopLayer","RESC1005X40N","31.3468","7.4422","0","0.062¬т 0402 330 ќм, 1%, „ип резистор (SMD)"
+"R10","RC0402FR-07330RL","TopLayer","RESC1005X40N","31.3690","5.1816","0","0.062¬т 0402 330 ќм, 1%, „ип резистор (SMD)"
+"LED2","LTST-C19HE1WT","TopLayer","LTST-C19HE1WT","33.9598","6.0960","90","Blue/Green/Red"
+"C7","GCM155R71H104KE02D","TopLayer","CAPC1005X55N","23.6728","16.0274","270","GCM155R71H104KE02D, „ип 0402 X7R 0.1uF +10% 50V, онденсатор"
 "R9","RC0402FR-0710KL","TopLayer","RESC1005X40N","19.5000","5.0000","270","0.062¬т 0402 10 кќм, 1%, „ип резистор (SMD)"
 "R8","RC0402FR-075K1L","TopLayer","RESC1005X40N","9.3750","7.0500","0","0.062¬т 0402 5.1 кќм, 1%, „ип резистор (SMD)"
 "R4","RC0402FR-075K1L","TopLayer","RESC1005X40N","9.3500","8.2000","0","0.062¬т 0402 5.1 кќм, 1%, „ип резистор (SMD)"
 "DEBUG","SM06B-SRSS-TB(LF)(SN)","TopLayer","JST_SM06B-SRSS-TB(LF)(SN)","27.0500","-0.2125","0","Connector Header Surface Mount, Right Angle 6 position 0.039 _1.00mm_"
-"R1","RC0402FR-07330RL","TopLayer","RESC1005X40N","28.5338","13.8962","0","0.062¬т 0402 330 ќм, 1%, „ип резистор (SMD)"
-"R2","RC0402FR-07330RL","TopLayer","RESC1005X40N","28.5338","14.9962","0","0.062¬т 0402 330 ќм, 1%, „ип резистор (SMD)"
-"R3","RC0402FR-07330RL","TopLayer","RESC1005X40N","28.5338","15.9962","0","0.062¬т 0402 330 ќм, 1%, „ип резистор (SMD)"
-"LED1","LTST-C19HE1WT","TopLayer","LTST-C19HE1WT","30.7838","15.1212","180","Blue/Green/Red"
+"R1","RC0402FR-07330RL","TopLayer","RESC1005X40N","27.5844","13.9446","0","0.062¬т 0402 330 ќм, 1%, „ип резистор (SMD)"
+"R2","RC0402FR-07330RL","TopLayer","RESC1005X40N","27.5844","14.9860","0","0.062¬т 0402 330 ќм, 1%, „ип резистор (SMD)"
+"R3","RC0402FR-07330RL","TopLayer","RESC1005X40N","27.9908","15.9766","0","0.062¬т 0402 330 ќм, 1%, „ип резистор (SMD)"
+"LED1","LTST-C19HE1WT","TopLayer","LTST-C19HE1WT","29.5334","14.2610","180","Blue/Green/Red"
 "D1","SMAJ5.0","TopLayer","DIOM4325X250N","9.9060","14.2240","90","400W, 6.9V, 10%, Unidirectional, TVS"
 "CAN1","SM04B-GHS-TB(LF)(SN)-","TopLayer","JST_SM04B-GHS-TB(LF)(SN)-","27.4000","25.1000","180","Connector Header Surface Mount, Right Angle 4 position 0.049 _1.25mm_"
 "SWD2","SM04B-GHS-TB(LF)(SN)-","BottomLayer","JST_BM04B-GHS-holes","6.7750","0.0750","180","Conn Shrouded Header HDR 4 POS 1.25mm Solder ST SMD Reel"
 "TARGET SWD","SM04B-GHS-TB(LF)(SN)-","TopLayer","JST_SM04B-GHS-TB(LF)(SN)-","36.6000","-0.1250","0","Connector Header Surface Mount, Right Angle 4 position 0.049 _1.25mm_"
-"D3","SS16","TopLayer","*DIOM5227X250N_SS16(Primary)","35.9410","11.9634","90","Diode Schottky 60V 1A Surface Mount SMA"
+"D3","SS16","TopLayer","*DIOM5227X250N_SS16(Primary)","36.5760","11.9634","90","Diode Schottky 60V 1A Surface Mount SMA"
 "R29","RC0402FR-071K6L","TopLayer","RESC1005X40N","9.0500","4.9500","0","0.062¬т 0402 1.6 кќм, 1%, „ип резистор (SMD)"
 "Y2","CSTCE8M00G55-R0","TopLayer","*OSC_CSTCE8M00G55-R0","26.4250","9.8000","90","Ceramic Resonator 8MHz ??0.5% _Tol_ ??0.2% _Stability_ 33pF 40Ohm 3-Pin CSMD T/R"
 "U4","STM32F103CBT6","TopLayer","STM-LQFP48_N","18.7750","11.1250","180","ARMЃ CortexЃ-M3 STM32F1 Microcontroller IC 32-Bit 72MHz 128KB (128K x 8) FLASH"
@@ -45,7 +49,7 @@ Units used: mm
 "C14","GCM155R71H104KE02D","TopLayer","CAPC1005X55N","12.7750","15.5250","0","GCM155R71H104KE02D, „ип 0402 X7R 0.1uF +10% 50V, онденсатор"
 "C13","GCM155R71H104KE02D","TopLayer","CAPC1005X55N","21.5000","5.0000","90","GCM155R71H104KE02D, „ип 0402 X7R 0.1uF +10% 50V, онденсатор"
 "C12","GCM155R71H104KE02D","TopLayer","CAPC1005X55N","25.1500","5.9500","180","GCM155R71H104KE02D, „ип 0402 X7R 0.1uF +10% 50V, онденсатор"
-"R11","RC0402FR-07330RL","TopLayer","RESC1005X40N","17.0000","3.0000","270","0.062¬т 0402 330 ќм, 1%, „ип резистор (SMD)"
+"R11","RC0402FR-07330RL","TopLayer","RESC1005X40N","31.3182","6.3500","0","0.062¬т 0402 330 ќм, 1%, „ип резистор (SMD)"
 "Y1","CSTCE8M00G55-R0","TopLayer","*OSC_CSTCE8M00G55-R0","13.0750","22.4500","270","Ceramic Resonator 8MHz ??0.5% _Tol_ ??0.2% _Stability_ 33pF 40Ohm 3-Pin CSMD T/R"
 "U3","SPX3819M5-L-3-3/TR","TopLayer","*SOT95P280X145-5N","7.3750","21.0750","90","Low Dropout Voltage Regulator, Adjustable 0.5A, ¬±1%, 2.5 to 16 Vin, 5-Pin SOT-23"
 "U1","TJA1042TK/3","TopLayer","SOT782-1","28.3500","20.2750","270","1/1 Transceiver Half CANbus 8-SO"

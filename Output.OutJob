@@ -21,7 +21,7 @@ TargetOutputMedium=BOTTOM VIEW
 VariantName=[No Variations]
 VariantScope=1
 CurrentConfigurationName=
-TargetPrinter=Xprinter XP-365B
+TargetPrinter=ECOSYS M3645dn
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputMedium1=Print Job
 OutputMedium1_Type=Printer
