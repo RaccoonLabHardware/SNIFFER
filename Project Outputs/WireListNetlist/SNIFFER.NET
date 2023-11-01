@@ -26,6 +26,8 @@ UJ31-CH-31N-SMT-TR              J1             CUI_UJ31-CH-31N-SMT-TR
 LTST-C19HE1WT                   LED1           LTST-C19HE1WT
 LTST-C19HE1WT                   LED2           LTST-C19HE1WT
 JST (JAPAN SOLDERLESS TERMINALS) - SM10B-SRSS-TB(LF)(SN) - HEADER, R/A, 10WAY   Source:  DatasheetPX4-DEBUG      SM10B-SRSS-TB
+IRF5852                         Q1             SOT23-6
+IRF5850                         Q2             SOT23-6
 RC0402FR-07330RL                R1             RESC1005X40N
 RC0402FR-07330RL                R2             RESC1005X40N
 RC0402FR-07330RL                R3             RESC1005X40N
@@ -43,6 +45,8 @@ RC0402FR-074K7L                 R14            RESC1005X40N
 RC0402FR-0710KL                 R15            RESC1005X40N
 RC0402FR-074K7L                 R16            RESC1005X40N
 RC0402FR-0710KL                 R17            RESC1005X40N
+RC0402FR-0710KL                 R18            RESC1005X40N
+RC0402FR-0710KL                 R19            RESC1005X40N
 RC0402FR-0710KL                 R24            RESC1005X40N
 RC0402FR-0722RL                 R27            RESC1005X40N
 RC0402FR-0722RL                 R28            RESC1005X40N
@@ -64,17 +68,23 @@ CSTCE8M00G55-R0                 Y2             *OSC_CSTCE8M00G55-R0
 
   NODE  REFERENCE  PIN #   PIN NAME       PIN TYPE    PART VALUE
 
-[00102] Vin
+[00105] XRST
+        PX4-DEBUG  9       9              I/O         JST (JAPAN SOLDERLESS TERMINALS) - SM10B-SRSS-TB(LF)(SN) - HEADER, R/A, 10WAY   Source:  Datasheet
+        Q1         1       G              PASSIVE     IRF5852
+        Q1         2       D              PASSIVE     IRF5852
+        R19        1       1              PASSIVE     RC0402FR-0710KL
+
+[00104] Vin
         CAN3       1       1              PASSIVE     502585-0670
         CAN3       2       2              PASSIVE     502585-0670
         D3         C       K              PASSIVE     SS16
 
-[00101] VBUS_SENSE
+[00103] VBUS_SENSE
         R16        1       1              PASSIVE     RC0402FR-074K7L
         R17        2       2              PASSIVE     RC0402FR-0710KL
         U4         26      PB13           POWER       STM32F103CBT6
 
-[00100] VBUS
+[00102] VBUS
         C1         2       2              PASSIVE     GCM155R71H104KE02D
         C9         2       2              PASSIVE     GCM155R71H104KE02D
         CAN1       1       1              PASSIVE     SM04B-GHS-TB(LF)(SN)-
@@ -92,133 +102,149 @@ CSTCE8M00G55-R0                 Y2             *OSC_CSTCE8M00G55-R0
         U3         1       VIN            POWER       SPX3819M5-L-3-3/TR
         U3         3       EN             INPUT       SPX3819M5-L-3-3/TR
 
-[00099] USB_DP_PULLUP
+[00101] USB_DP_PULLUP
         R29        2       2              PASSIVE     RC0402FR-071K6L
         U4         29      PA8            I/O         STM32F103CBT6
 
-[00098] USB_DP
+[00100] USB_DP
         R28        2       2              PASSIVE     RC0402FR-0722RL
         U4         33      PA12           I/O         STM32F103CBT6
 
-[00097] USB_DM
+[00099] USB_DM
         R27        2       2              PASSIVE     RC0402FR-0722RL
         U4         32      PA11           I/O         STM32F103CBT6
 
-[00096] TX2/B2
+[00098] TX2/B2
         DD1        7       PA0-WKUP       I/O         STM32F103T8
         DD1        9       PA2            I/O         STM32F103T8
 
-[00095] TRSWO
+[00097] TRSWO
         U4         43      PB7            I/O         STM32F103CBT6
 
-[00094] TRACESWO
+[00096] TRACESWO
         U4         39      PB3            I/O         STM32F103CBT6
 
-[00093] TPWR
+[00095] TPWR
 
-[00092] T3CH4/ADC9
+[00094] TARGET_3V3
+        DEBUG      1       1              PASSIVE     SM06B-SRSS-TB(LF)(SN)
+        PX4-DEBUG  1       1              I/O         JST (JAPAN SOLDERLESS TERMINALS) - SM10B-SRSS-TB(LF)(SN) - HEADER, R/A, 10WAY   Source:  Datasheet
+        Q2         4       D              PASSIVE     IRF5850
+        R14        1       1              PASSIVE     RC0402FR-074K7L
+        R19        2       2              PASSIVE     RC0402FR-0710KL
+        TARGET SW  1       1              PASSIVE     SM04B-GHS-TB(LF)(SN)-
+
+[00093] T3CH4/ADC9
         DD1        16      PB1            I/O         STM32F103T8
 
-[00091] T3CH3/ADC8
+[00092] T3CH3/ADC8
         DD1        15      PB0            I/O         STM32F103T8
 
-[00090] T3CH2/ADC7
+[00091] T3CH2/ADC7
         DD1        14      PA7            I/O         STM32F103T8
 
-[00089] T3CH1/ADC6
+[00090] T3CH1/ADC6
         DD1        13      PA6            I/O         STM32F103T8
 
-[00088] SWLK_p
+[00089] SWLK_p
         SWD2       2       2              PASSIVE     SM04B-GHS-TB(LF)(SN)-
         U4         37      PA14           I/O         STM32F103CBT6
 
-[00087] SWLK
+[00088] SWLK
         DD1        28      PA14/JTCK/SWCLKI/O         STM32F103T8
         SWD1       2       2              PASSIVE     SM04B-GHS-TB(LF)(SN)-
 
-[00086] SWDIO_p
+[00087] SWDIO_p
         SWD2       3       3              PASSIVE     SM04B-GHS-TB(LF)(SN)-
         U4         34      PA13           I/O         STM32F103CBT6
 
-[00085] SWDIO
+[00086] SWDIO
         DD1        25      PA13/JTMS/SWDIOI/O         STM32F103T8
         SWD1       3       3              PASSIVE     SM04B-GHS-TB(LF)(SN)-
 
-[00084] STM_RST
+[00085] STM_RST
         C11        2       2              PASSIVE     GCM155R71H104KE02D
         R24        2       2              PASSIVE     RC0402FR-0710KL
         U4         7       NRST           I/O         STM32F103CBT6
 
-[00083] SPI1_SS
+[00084] SPI1_SS
         DD1        29      PA15/JTDI      I/O         STM32F103T8
 
-[00082] SPI1_SCK
+[00083] SPI1_SCK
         DD1        30      PB3/JTDO       I/O         STM32F103T8
 
-[00081] SPI1_MOSI
+[00082] SPI1_MOSI
         DD1        32      PB5            I/O         STM32F103T8
 
-[00080] SPI1_MISO
+[00081] SPI1_MISO
         DD1        31      PB4/JNTRST     I/O         STM32F103T8
 
-[00079] SDA/A1
+[00080] SDA/A1
         DD1        34      PB7            I/O         STM32F103T8
 
-[00078] SCL/A2
+[00079] SCL/A2
         DD1        33      PB6            I/O         STM32F103T8
 
-[00077] RXI
+[00078] RXI
         DD1        20      PA8            I/O         STM32F103T8
         DD1        21      PA9            I/O         STM32F103T8
         U4         31      PA10           I/O         STM32F103CBT6
 
-[00076] RX2/B1
+[00077] RX2/B1
         DD1        10      PA3            I/O         STM32F103T8
 
-[00075] RX1/C1
+[00076] RX1/C1
         DD1        22      PA10           I/O         STM32F103T8
         U4         30      PA9            I/O         STM32F103CBT6
 
-[00074] PWR_BR
+[00075] PWR_BR
+        Q2         1       G              PASSIVE     IRF5850
+        Q2         3       G              PASSIVE     IRF5850
+        R18        1       1              PASSIVE     RC0402FR-0710KL
         U4         19      PB1            I/O         STM32F103CBT6
 
-[00073] NRST
+[00074] NRST
         DD1        4       NRST           I/O         STM32F103T8
         R7         2       2              PASSIVE     RC0402FR-0710KL
         SW1        2P2     2P2            I/O         DSHP02TSGER
 
-[00066] NetU4_6
+[00067] NetU4_6
         U4         6       PD1-OSC_OUT    I/O         STM32F103CBT6
         Y2         3       3              PASSIVE     CSTCE8M00G55-R0
 
-[00065] NetU4_5
+[00066] NetU4_5
         U4         5       PD0-OSC_IN     I/O         STM32F103CBT6
         Y2         1       1              PASSIVE     CSTCE8M00G55-R0
 
-[00056] NetR30_2
+[00057] NetR30_2
         R30        2       2              PASSIVE     RC0402FR-071KL
         VUSB       A       A              PASSIVE     0603-LED-ORANGE
 
-[00055] NetR28_1
+[00056] NetR28_1
         R28        1       1              PASSIVE     RC0402FR-0722RL
         R29        1       1              PASSIVE     RC0402FR-071K6L
         TVS1       6       IO1            PASSIVE     USBLC6-2P6
 
-[00054] NetR27_1
+[00055] NetR27_1
         R27        1       1              PASSIVE     RC0402FR-0722RL
         TVS1       4       IO2            PASSIVE     USBLC6-2P6
 
-[00053] NetR13_2
+[00054] NetR13_2
         R13        2       2              PASSIVE     RC0402FR-0710KL
         U4         25      PB12           I/O         STM32F103CBT6
 
-[00052] NetR9_1
+[00053] NetR9_1
         R9         1       1              PASSIVE     RC0402FR-0710KL
         U4         44      BOOT0          INPUT       STM32F103CBT6
 
-[00051] NetR5_2
+[00052] NetR5_2
         R5         2       2              PASSIVE     RC0402FR-07120RL
         SW1        1P1     1P1            I/O         DSHP02TSGER
+
+[00051] NetQ2_2
+        Q2         2       S              PASSIVE     IRF5850
+        Q2         5       S              PASSIVE     IRF5850
+        R18        2       2              PASSIVE     RC0402FR-0710KL
 
 [00045] NetLED2_3
         LED2       3       B              PASSIVE     LTST-C19HE1WT
@@ -300,10 +326,11 @@ CSTCE8M00G55-R0                 Y2             *OSC_CSTCE8M00G55-R0
         U4         15      PA5            I/O         STM32F103CBT6
 
 [00016] iRST_SENSE
+        Q1         6       D              PASSIVE     IRF5852
         U4         17      PA7            I/O         STM32F103CBT6
 
 [00015] iRST
-        PX4-DEBUG  9       9              I/O         JST (JAPAN SOLDERLESS TERMINALS) - SM10B-SRSS-TB(LF)(SN) - HEADER, R/A, 10WAY   Source:  Datasheet
+        Q1         3       G              PASSIVE     IRF5852
         U4         12      PA2            I/O         STM32F103CBT6
 
 [00014] IP1
@@ -359,6 +386,8 @@ CSTCE8M00G55-R0                 Y2             *OSC_CSTCE8M00G55-R0
         J1         SH5     SHIELD         POWER       UJ31-CH-31N-SMT-TR
         J1         SH6     SHIELD         POWER       UJ31-CH-31N-SMT-TR
         PX4-DEBUG  10      10             I/O         JST (JAPAN SOLDERLESS TERMINALS) - SM10B-SRSS-TB(LF)(SN) - HEADER, R/A, 10WAY   Source:  Datasheet
+        Q1         4       S              PASSIVE     IRF5852
+        Q1         5       S              PASSIVE     IRF5852
         R1         1       1              PASSIVE     RC0402FR-07330RL
         R4         2       2              PASSIVE     RC0402FR-075K1L
         R6         1       1              PASSIVE     RC0402FR-0710KL
@@ -444,17 +473,14 @@ CSTCE8M00G55-R0                 Y2             *OSC_CSTCE8M00G55-R0
         DD1        6       VDDA           POWER       STM32F103T8
         DD1        19      VDD_2          POWER       STM32F103T8
         DD1        27      VDD_3          POWER       STM32F103T8
-        DEBUG      1       1              PASSIVE     SM06B-SRSS-TB(LF)(SN)
         LED1       4       A              PASSIVE     LTST-C19HE1WT
         LED2       4       A              PASSIVE     LTST-C19HE1WT
-        PX4-DEBUG  1       1              I/O         JST (JAPAN SOLDERLESS TERMINALS) - SM10B-SRSS-TB(LF)(SN) - HEADER, R/A, 10WAY   Source:  Datasheet
+        Q2         6       D              PASSIVE     IRF5850
         R7         1       1              PASSIVE     RC0402FR-0710KL
         R13        1       1              PASSIVE     RC0402FR-0710KL
-        R14        1       1              PASSIVE     RC0402FR-074K7L
         R24        1       1              PASSIVE     RC0402FR-0710KL
         SWD1       4       4              PASSIVE     SM04B-GHS-TB(LF)(SN)-
         SWD2       4       4              PASSIVE     SM04B-GHS-TB(LF)(SN)-
-        TARGET SW  1       1              PASSIVE     SM04B-GHS-TB(LF)(SN)-
         U1         5       Vio            POWER       TJA1042TK/3
         U3         5       VOUT           POWER       SPX3819M5-L-3-3/TR
         U4         1       VBAT           POWER       STM32F103CBT6

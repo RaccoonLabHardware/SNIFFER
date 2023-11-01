@@ -4,13 +4,17 @@ C:\altium workspace\UAVCAN-Sniffer-STM-Programmer\Project Outputs\Pick Place\Pic
 ========================================================================================================================
 File Design Information:
 
-Date:       30.10.23
-Time:       15:23
-Revision:   44c3fad71063e8889306957c3dd551cdb3371e59
+Date:       01.11.23
+Time:       16:22
+Revision:   f5ce965cabda8441eb95d29641bb7876e8e4bab8
 Variant:    No variations
 Units used: mm
 
 Designator   Comment                                                                                              Layer       Footprint                           Center-X(mm) Center-Y(mm) Rotation Description                                                                                                                       
+R19          RC0402FR-0710KL                                                                                      TopLayer    RESC1005X40N                        25.0952      3.3528       180      "0.062Вт 0402 10 кОм, 1%, Чип резистор (SMD)"                                                                                     
+R18          RC0402FR-0710KL                                                                                      TopLayer    RESC1005X40N                        13.4874      3.6322       90       "0.062Вт 0402 10 кОм, 1%, Чип резистор (SMD)"                                                                                     
+Q2           IRF5850                                                                                              TopLayer    SOT23-6                             15.8242      4.1656       270      "Mosfet Array 2 P-Channel (Dual) 20V 2.2A 960mW Surface Mount 6-TSOP"                                                             
+Q1           IRF5852                                                                                              TopLayer    SOT23-6                             24.8412      5.4610       90       "Mosfet Array 2 N-Channel _Dual_ 20V 2.7A 960mW Surface Mount 6-TSOP"                                                             
 PX4-DEBUG    "JST (JAPAN SOLDERLESS TERMINALS) - SM10B-SRSS-TB(LF)(SN) - HEADER, R/A, 10WAY   Source:  Datasheet" TopLayer    SM10B-SRSS-TB                       15.9845      -0.2610      0        ""                                                                                                                                
 SW1          DSHP02TSGER                                                                                          TopLayer    DSHP02TSGER                         32.8422      14.5796      180      "DSHP Series 1.27mm Pitch DIP Switch 4 POS"                                                                                       
 R17          RC0402FR-0710KL                                                                                      TopLayer    RESC1005X40N                        12.8270      12.0396      90       "0.062Вт 0402 10 кОм, 1%, Чип резистор (SMD)"                                                                                     
@@ -48,7 +52,7 @@ C11          GCM155R71H104KE02D                                                 
 C15          GCM155R71H104KE02D                                                                                   TopLayer    CAPC1005X55N                        12.5500      8.3000       0        "GCM155R71H104KE02D, Чип 0402 X7R 0.1uF +10% 50V,Конденсатор"                                                                     
 C14          GCM155R71H104KE02D                                                                                   TopLayer    CAPC1005X55N                        12.7750      15.5250      0        "GCM155R71H104KE02D, Чип 0402 X7R 0.1uF +10% 50V,Конденсатор"                                                                     
 C13          GCM155R71H104KE02D                                                                                   TopLayer    CAPC1005X55N                        21.5000      5.0000       90       "GCM155R71H104KE02D, Чип 0402 X7R 0.1uF +10% 50V,Конденсатор"                                                                     
-C12          GCM155R71H104KE02D                                                                                   TopLayer    CAPC1005X55N                        25.1500      5.9500       180      "GCM155R71H104KE02D, Чип 0402 X7R 0.1uF +10% 50V,Конденсатор"                                                                     
+C12          GCM155R71H104KE02D                                                                                   TopLayer    CAPC1005X55N                        25.2476      7.6200       180      "GCM155R71H104KE02D, Чип 0402 X7R 0.1uF +10% 50V,Конденсатор"                                                                     
 R11          RC0402FR-07330RL                                                                                     TopLayer    RESC1005X40N                        31.3182      6.3500       0        "0.062Вт 0402 330 Ом, 1%, Чип резистор (SMD)"                                                                                     
 Y1           CSTCE8M00G55-R0                                                                                      TopLayer    *OSC_CSTCE8M00G55-R0                13.0750      22.4500      270      "Ceramic Resonator 8MHz ??0.5% _Tol_ ??0.2% _Stability_ 33pF 40Ohm 3-Pin CSMD T/R"                                                
 U3           SPX3819M5-L-3-3/TR                                                                                   TopLayer    *SOT95P280X145-5N                   7.3750       21.0750      90       "Low Dropout Voltage Regulator, Adjustable 0.5A, В±1%, 2.5 to 16 Vin, 5-Pin SOT-23"                                               
