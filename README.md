@@ -52,8 +52,6 @@ The node has connectors which are described in the table below.
 
 Here you can see all connections of MCU.
 
-<img src="doc/pinout.png" alt="pinout"/>
-
 | MCU PIN         | PIN Numer | NET Name | Description |
 | ---------- |  -- | --------------  | - |
 | PB13           |  26 | VBUS_SENSE  |  |
